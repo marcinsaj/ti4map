@@ -1,9 +1,17 @@
 # Publikacja generatora na GitHub Pages.
 #
-# Grafiki kafli leżą w repozytorium (web/tiles/), więc nie ma tu kroku ich pobierania –
-# wdrożenie jest przez to szybkie i nie zależy od zewnętrznego serwera.
-# Dane w web/data/ też są w repozytorium, ale budujemy je na nowo i puszczamy smoke-test:
-# jeśli dane się rozjadą, wdrożenie ma się zatrzymać, a nie wystawić zepsutą stronę.
+# Publikujemy dokładnie to, co leży w repozytorium: grafiki kafli (web/tiles/) i wygenerowane
+# dane (web/data/). Nic nie jest pobierane ani budowane z zewnętrznych źródeł, więc wdrożenie
+# trwa kilkanaście sekund i zawsze daje ten sam wynik, co wersja sprawdzona lokalnie.
+#
+# Świadomie NIE ma tu kroku `npm run build:data`: budowanie danych wymaga katalogu vendor/async
+# (klon repozytorium AsyncTI4), którego w repozytorium nie ma i mieć nie powinien. Gdybyśmy
+# klonowali go przy każdym wdrożeniu, opublikowane dane mogłyby po cichu różnić się od tych
+# przetestowanych lokalnie — wystarczyłaby zmiana po stronie AsyncTI4.
+#
+# Dane buduje się lokalnie (`npm run build:data`) i zatwierdza. Smoke-test niżej sprawdza to,
+# co faktycznie leży w repozytorium, więc zepsute dane zatrzymają wdrożenie zamiast trafić
+# na stronę.
 
 name: Publikacja na GitHub Pages
 
@@ -31,10 +39,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Zbuduj dane
-        run: npm run build:data
-
-      - name: Sprawdź poprawność
+      - name: Sprawdź dane z repozytorium
         run: node scripts/smoke-test.mjs
 
       - name: Wyłącz Jekyll
