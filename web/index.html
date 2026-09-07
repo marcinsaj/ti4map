@@ -21,14 +21,14 @@
 <main>
   <aside id="sidebar">
     <nav class="tabs" id="tabs">
-      <button data-tab="game">Gra</button>
-      <button data-tab="players" class="active">Gracze</button>
+      <button data-tab="game" class="active">Gra</button>
+      <button data-tab="players">Gracze</button>
       <button data-tab="rules">Zasady</button>
       <button data-tab="tiles">Kafle</button>
       <button data-tab="save">Zapis</button>
     </nav>
 
-    <section class="tab hidden" data-tab="game">
+    <section class="tab" data-tab="game">
       <h2>Dodatki</h2>
       <p class="hint">Włączenie dodatku dorzuca jego kafle do puli losowania i jego rasy do listy wyboru.</p>
       <div id="expansions" class="checklist"></div>
@@ -85,7 +85,7 @@
       <p id="iterations-info" class="hint"></p>
     </section>
 
-    <section class="tab" data-tab="players">
+    <section class="tab hidden" data-tab="players">
       <h2>Kolejność graczy przy stole</h2>
       <p class="hint">Numery graczy idą <strong>dookoła planszy</strong>, bo tak samo siedzi się przy
         stole. Wystarczy więc wskazać, w którym gnieździe siedzi <strong>gracz 1</strong> – generator
