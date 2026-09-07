@@ -1,0 +1,11386 @@
+[
+ {
+  "id": "c41",
+  "name": "Ordinian (C4)",
+  "source": "base",
+  "expansion": "base",
+  "back": "black",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "variant",
+   "why": "Ordinian (Codex I) – kafel scenariuszowy, poza standardową pulą."
+  },
+  "anomalies": [
+   "nebula"
+  ],
+  "wormholes": [],
+  "planets": [
+   "ordinianc4"
+  ],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Ordinian Rex",
+    "name": "Barren Husk",
+    "text": "You may exhaust this card when you pass to draw 1 action card and gain 1 command token"
+   }
+  ],
+  "image": "C4_Ordinian.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "nebula",
+   "legendary"
+  ]
+ },
+ {
+  "id": "01",
+  "name": "Jord - Sol",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "jord"
+  ],
+  "res": 4,
+  "inf": 2,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "01_Jord.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "02",
+  "name": "Moll Primus - Mentak",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "mollprimus"
+  ],
+  "res": 4,
+  "inf": 1,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "02_MollPrimus.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "03",
+  "name": "Darien - Yin",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "darien"
+  ],
+  "res": 4,
+  "inf": 4,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "03_Darien.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "04",
+  "name": "Muaat - Muaat",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "muaat"
+  ],
+  "res": 4,
+  "inf": 1,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "04_Muaat.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "05",
+  "name": "Nestphar - Arborec",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "nestphar"
+  ],
+  "res": 3,
+  "inf": 2,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "05_Nestphar.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "06",
+  "name": "[0.0.0] - L1Z1X",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "0.0.0"
+  ],
+  "res": 5,
+  "inf": 0,
+  "optRes": 5,
+  "optInf": 0,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "06_000.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "07",
+  "name": "Winnu - Winnu",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "winnu"
+  ],
+  "res": 3,
+  "inf": 4,
+  "optRes": 0,
+  "optInf": 4,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "07_Winnu.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "08",
+  "name": "Mordai II - Nekro",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "mordaiii"
+  ],
+  "res": 4,
+  "inf": 0,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "08_MordaiII.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "09",
+  "name": "Maaluuk/Druaa - Naalu",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "maaluuk",
+   "druaa"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 3,
+  "optInf": 2,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "09_Maaluuk.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "10",
+  "name": "Arc Prime/Wren Terra - Letnev",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "arcprime",
+   "wrenterra"
+  ],
+  "res": 6,
+  "inf": 1,
+  "optRes": 6,
+  "optInf": 0,
+  "optTotal": 6,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "10_ArcPime.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "11",
+  "name": "Ragh/Lisis II - Saar",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "lisisii",
+   "ragh"
+  ],
+  "res": 3,
+  "inf": 1,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "11_LisisII.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "12",
+  "name": "Nar/Jol - Jol-Nar",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "nar",
+   "jol"
+  ],
+  "res": 3,
+  "inf": 5,
+  "optRes": 0,
+  "optInf": 5,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "12_Nar.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "13",
+  "name": "Quinarra/Trenlak - Sardakk",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "trenlak",
+   "quinarra"
+  ],
+  "res": 4,
+  "inf": 1,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "13_Trenlak.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "14",
+  "name": "Archon Ren/Archon Tau - Xxcha",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "archonren",
+   "archontau"
+  ],
+  "res": 3,
+  "inf": 4,
+  "optRes": 0.5,
+  "optInf": 3.5,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "14_ArchonRen.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "15",
+  "name": "Retillion/Shalloq - Yssaril",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "retillion",
+   "shalloq"
+  ],
+  "res": 3,
+  "inf": 5,
+  "optRes": 0,
+  "optInf": 5,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "15_Retillion.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "16",
+  "name": "Arretze/Hercant/Kamdorn - Hacan",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "hercant",
+   "arretze",
+   "kamdorn"
+  ],
+  "res": 3,
+  "inf": 2,
+  "optRes": 2.5,
+  "optInf": 1.5,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "16_Arretze.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "17",
+  "name": "Creuss Gate - Creuss",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": {
+   "group": "setup",
+   "why": "Wrota Creuss – trafiają na mapę razem z Ghosts of Creuss (zamiast ich domu)."
+  },
+  "anomalies": [],
+  "wormholes": [
+   "DELTA"
+  ],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "17_DeltaWH.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_delta"
+  ]
+ },
+ {
+  "id": "18",
+  "name": "Mecatol Rex",
+  "source": "base",
+  "expansion": "base",
+  "back": "black",
+  "category": "mecatol",
+  "inPool": false,
+  "excluded": {
+   "group": "center",
+   "why": "Mecatol Rex – zawsze na środku planszy."
+  },
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "mr"
+  ],
+  "res": 1,
+  "inf": 6,
+  "optRes": 0,
+  "optInf": 6,
+  "optTotal": 6,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "18_MR.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "19",
+  "name": "Wellon",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "wellon"
+  ],
+  "res": 1,
+  "inf": 2,
+  "optRes": 0,
+  "optInf": 2,
+  "optTotal": 2,
+  "techSpecialties": [
+   "CYBERNETIC"
+  ],
+  "legendary": [],
+  "image": "19_Wellon.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "20",
+  "name": "Vefut II",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "vefutii"
+  ],
+  "res": 2,
+  "inf": 2,
+  "optRes": 1,
+  "optInf": 1,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "20_VefutII.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "21",
+  "name": "Thibah",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "thibah"
+  ],
+  "res": 1,
+  "inf": 1,
+  "optRes": 0.5,
+  "optInf": 0.5,
+  "optTotal": 1,
+  "techSpecialties": [
+   "PROPULSION"
+  ],
+  "legendary": [],
+  "image": "21_Thibah.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "22",
+  "name": "Tarmann",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "tarmann"
+  ],
+  "res": 1,
+  "inf": 1,
+  "optRes": 0.5,
+  "optInf": 0.5,
+  "optTotal": 1,
+  "techSpecialties": [
+   "BIOTIC"
+  ],
+  "legendary": [],
+  "image": "22_Tarmann.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "23",
+  "name": "Saudor",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "saudor"
+  ],
+  "res": 2,
+  "inf": 2,
+  "optRes": 1,
+  "optInf": 1,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "23_Saudor.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "24",
+  "name": "Mehar Xull",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "meharxull"
+  ],
+  "res": 1,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [
+   "WARFARE"
+  ],
+  "legendary": [],
+  "image": "24_MeharXull.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "25",
+  "name": "Quann",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [
+   "BETA"
+  ],
+  "planets": [
+   "quann"
+  ],
+  "res": 2,
+  "inf": 1,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "25_Quann.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_beta"
+  ]
+ },
+ {
+  "id": "26",
+  "name": "Lodor",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [
+   "ALPHA"
+  ],
+  "planets": [
+   "lodor"
+  ],
+  "res": 3,
+  "inf": 1,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "26_Lodor.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_alpha"
+  ]
+ },
+ {
+  "id": "27",
+  "name": "Starpoint/New Albion",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "newalbion",
+   "starpoint"
+  ],
+  "res": 4,
+  "inf": 2,
+  "optRes": 3.5,
+  "optInf": 0.5,
+  "optTotal": 4,
+  "techSpecialties": [
+   "BIOTIC"
+  ],
+  "legendary": [],
+  "image": "27_NewAlbion.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "28",
+  "name": "Tequran/Torkan",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "tequran",
+   "torkan"
+  ],
+  "res": 2,
+  "inf": 3,
+  "optRes": 2,
+  "optInf": 3,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "28_Tequran.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "29",
+  "name": "Qucenn/Rarron",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "qucenn",
+   "rarron"
+  ],
+  "res": 1,
+  "inf": 5,
+  "optRes": 0,
+  "optInf": 5,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "29_Qucenn.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "30",
+  "name": "Mellon/Zohbat",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "mellon",
+   "zohbat"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 3,
+  "optInf": 2,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "30_Mellon.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "31",
+  "name": "Lazar/Sakulag",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "lazar",
+   "sakulag"
+  ],
+  "res": 3,
+  "inf": 1,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [
+   "CYBERNETIC"
+  ],
+  "legendary": [],
+  "image": "31_Lazar.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "32",
+  "name": "Dal-Bootha/Xxehan",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "dalbootha",
+   "xxehan"
+  ],
+  "res": 1,
+  "inf": 3,
+  "optRes": 0.5,
+  "optInf": 2.5,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "32_DalBootha.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "33",
+  "name": "Corneeq/Resculon",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "corneeq",
+   "resculon"
+  ],
+  "res": 3,
+  "inf": 2,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "33_Corneeq.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "34",
+  "name": "Centauri/Gral",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "centauri",
+   "gral"
+  ],
+  "res": 2,
+  "inf": 4,
+  "optRes": 0.5,
+  "optInf": 3.5,
+  "optTotal": 4,
+  "techSpecialties": [
+   "PROPULSION"
+  ],
+  "legendary": [],
+  "image": "34_Centauri.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "35",
+  "name": "Bereg/Lirta iv",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "bereg",
+   "lirtaiv"
+  ],
+  "res": 5,
+  "inf": 4,
+  "optRes": 3,
+  "optInf": 3,
+  "optTotal": 6,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "35_Bereg.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "36",
+  "name": "Arnor/Lor",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "arnor",
+   "lor"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "36_Arnor.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "37",
+  "name": "Arinam/Meer",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "arinam",
+   "meer"
+  ],
+  "res": 1,
+  "inf": 6,
+  "optRes": 0,
+  "optInf": 6,
+  "optTotal": 6,
+  "techSpecialties": [
+   "WARFARE"
+  ],
+  "legendary": [],
+  "image": "37_Arinam.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "38",
+  "name": "Abyz/Fria",
+  "source": "base",
+  "expansion": "base",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "abyz",
+   "fria"
+  ],
+  "res": 5,
+  "inf": 0,
+  "optRes": 5,
+  "optInf": 0,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "38_Abyz.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "39",
+  "name": "Alpha Wormhole",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [
+   "ALPHA"
+  ],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "39_AlphaWH.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_alpha",
+   "empty"
+  ]
+ },
+ {
+  "id": "40",
+  "name": "Beta Wormhole",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [
+   "BETA"
+  ],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "40_BetaWH.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_beta",
+   "empty"
+  ]
+ },
+ {
+  "id": "41",
+  "name": "Gravity Rift",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "gravity_rift"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "41_GravityRift.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "gravity_rift"
+  ]
+ },
+ {
+  "id": "42",
+  "name": "Nebula",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "nebula"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "42_Nebula.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "nebula"
+  ]
+ },
+ {
+  "id": "43",
+  "name": "Supernova",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "supernova"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "43_Supernova.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "supernova"
+  ]
+ },
+ {
+  "id": "44",
+  "name": "Asteroids",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "asteroid_field"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "44_Asteroids.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "asteroid_field"
+  ]
+ },
+ {
+  "id": "45",
+  "name": "Asteroids",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "asteroid_field"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "45_Asteroids.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "asteroid_field"
+  ]
+ },
+ {
+  "id": "46",
+  "name": "Empty System",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "46_Void.png",
+  "hyperlane": null,
+  "tags": [
+   "empty"
+  ]
+ },
+ {
+  "id": "47",
+  "name": "Empty System",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "47_Void.png",
+  "hyperlane": null,
+  "tags": [
+   "empty"
+  ]
+ },
+ {
+  "id": "48",
+  "name": "Empty System",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "48_Void.png",
+  "hyperlane": null,
+  "tags": [
+   "empty"
+  ]
+ },
+ {
+  "id": "49",
+  "name": "Empty System",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "49_Void.png",
+  "hyperlane": null,
+  "tags": [
+   "empty"
+  ]
+ },
+ {
+  "id": "50",
+  "name": "Empty System",
+  "source": "base",
+  "expansion": "base",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "50_Void.png",
+  "hyperlane": null,
+  "tags": [
+   "empty"
+  ]
+ },
+ {
+  "id": "51",
+  "name": "Creuss - Creuss",
+  "source": "base",
+  "expansion": "base",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": {
+   "group": "setup",
+   "why": "Creuss – dom Ghosts of Creuss leży poza planszą."
+  },
+  "anomalies": [],
+  "wormholes": [
+   "DELTA"
+  ],
+  "planets": [
+   "creuss"
+  ],
+  "res": 4,
+  "inf": 2,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "51_Creuss.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_delta"
+  ]
+ },
+ {
+  "id": "52",
+  "name": "Ixth - Mahact",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "ixth"
+  ],
+  "res": 3,
+  "inf": 5,
+  "optRes": 0,
+  "optInf": 5,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "52_Ixth.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "53",
+  "name": "Arcturus - Nomad",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "arcturus"
+  ],
+  "res": 4,
+  "inf": 4,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "53_Arcturus.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "54",
+  "name": "Acheron - Vuil'raith",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "acheron"
+  ],
+  "res": 4,
+  "inf": 0,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "54_Acheron.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "55",
+  "name": "Elysium - Ul",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "elysium"
+  ],
+  "res": 4,
+  "inf": 1,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "55_Elysium.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "56",
+  "name": "The Dark - Empyrean",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [
+   "nebula"
+  ],
+  "wormholes": [],
+  "planets": [
+   "thedark"
+  ],
+  "res": 3,
+  "inf": 4,
+  "optRes": 0,
+  "optInf": 4,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "56_TheDark.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "nebula"
+  ]
+ },
+ {
+  "id": "57",
+  "name": "Naazir/Rokha - Naaz-Rokha",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "naazir",
+   "rokha"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "57_Naazir.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "58",
+  "name": "Ylir/Avar/Valk - Argent",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "valk",
+   "ylir",
+   "avar"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 2.5,
+  "optInf": 2.5,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "58_Ylir.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "59",
+  "name": "Archon Vail",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "archonvail"
+  ],
+  "res": 1,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [
+   "PROPULSION"
+  ],
+  "legendary": [],
+  "image": "59_ArchonVail.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "60",
+  "name": "Perimeter",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "perimeter"
+  ],
+  "res": 2,
+  "inf": 1,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "60_Perimeter.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "61",
+  "name": "Ang",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "ang"
+  ],
+  "res": 2,
+  "inf": 0,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [
+   "WARFARE"
+  ],
+  "legendary": [],
+  "image": "61_Ang.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "62",
+  "name": "Sem-Lore",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "semlore"
+  ],
+  "res": 3,
+  "inf": 2,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [
+   "CYBERNETIC"
+  ],
+  "legendary": [],
+  "image": "62_SemLore.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "63",
+  "name": "Vorhal",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "vorhal"
+  ],
+  "res": 0,
+  "inf": 2,
+  "optRes": 0,
+  "optInf": 2,
+  "optTotal": 2,
+  "techSpecialties": [
+   "BIOTIC"
+  ],
+  "legendary": [],
+  "image": "63_Vorhal.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "64",
+  "name": "Atlas",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [
+   "BETA"
+  ],
+  "planets": [
+   "atlas"
+  ],
+  "res": 3,
+  "inf": 1,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "64_Atlas.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_beta"
+  ]
+ },
+ {
+  "id": "65",
+  "name": "Primor",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "primor"
+  ],
+  "res": 2,
+  "inf": 1,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Primor",
+    "name": "The Atrament",
+    "text": "You may exhaust this card at the end of your turn to place up to 2 infantry from your reinforcements on any planet you control"
+   }
+  ],
+  "image": "65_Primor.png",
+  "hyperlane": null,
+  "tags": [
+   "legendary"
+  ]
+ },
+ {
+  "id": "66",
+  "name": "Hope's End",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "hopesend"
+  ],
+  "res": 3,
+  "inf": 0,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Hope's End",
+    "name": "Imperial Arms Vault",
+    "text": "You may exhaust this card at the end of your turn to place 1 mech from your reinforcements on any planet you control or draw 1 action card"
+   }
+  ],
+  "image": "66_HopesEnd.png",
+  "hyperlane": null,
+  "tags": [
+   "legendary"
+  ]
+ },
+ {
+  "id": "67",
+  "name": "Cormund",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "gravity_rift"
+  ],
+  "wormholes": [],
+  "planets": [
+   "cormund"
+  ],
+  "res": 2,
+  "inf": 0,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "67_Cormund.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "gravity_rift"
+  ]
+ },
+ {
+  "id": "68",
+  "name": "Everra",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "nebula"
+  ],
+  "wormholes": [],
+  "planets": [
+   "everra"
+  ],
+  "res": 3,
+  "inf": 1,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "68_Everra.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "nebula"
+  ]
+ },
+ {
+  "id": "69",
+  "name": "Accoen/Jeol-ir",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "accoen",
+   "jeolir"
+  ],
+  "res": 4,
+  "inf": 6,
+  "optRes": 0,
+  "optInf": 6,
+  "optTotal": 6,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "69_Accoen.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "70",
+  "name": "Kraag/Siig",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "kraag",
+   "siig"
+  ],
+  "res": 2,
+  "inf": 3,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "70_Kraag.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "71",
+  "name": "Bakal/Alio Prima",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "bakal",
+   "alioprima"
+  ],
+  "res": 4,
+  "inf": 3,
+  "optRes": 3.5,
+  "optInf": 0.5,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "71_Bakal.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "72",
+  "name": "Lisis/Velnor",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "lisis",
+   "velnor"
+  ],
+  "res": 4,
+  "inf": 3,
+  "optRes": 3,
+  "optInf": 1,
+  "optTotal": 4,
+  "techSpecialties": [
+   "WARFARE"
+  ],
+  "legendary": [],
+  "image": "72_Lisis.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "73",
+  "name": "Cealdri/Xanhact",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "cealdri",
+   "xanhact"
+  ],
+  "res": 0,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [
+   "CYBERNETIC"
+  ],
+  "legendary": [],
+  "image": "73_Cealdri.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "74",
+  "name": "Vega Major/Vega Minor",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "vegamajor",
+   "vegaminor"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [
+   "PROPULSION"
+  ],
+  "legendary": [],
+  "image": "74_Vega.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "75",
+  "name": "Loki/Ashtroth/Abaddon - Devils",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "loki",
+   "abaddon",
+   "ashtroth"
+  ],
+  "res": 4,
+  "inf": 2,
+  "optRes": 3,
+  "optInf": 2,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "75_Abaddon.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "76",
+  "name": "Rigels",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "rigeliii",
+   "rigelii",
+   "rigeli"
+  ],
+  "res": 2,
+  "inf": 4,
+  "optRes": 0.5,
+  "optInf": 3.5,
+  "optTotal": 4,
+  "techSpecialties": [
+   "BIOTIC"
+  ],
+  "legendary": [],
+  "image": "76_Rigel.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "77",
+  "name": "Empty System",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "77_Void.png",
+  "hyperlane": null,
+  "tags": [
+   "empty"
+  ]
+ },
+ {
+  "id": "78",
+  "name": "Empty System",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "78_Void.png",
+  "hyperlane": null,
+  "tags": [
+   "empty"
+  ]
+ },
+ {
+  "id": "79",
+  "name": "Asteroids Alpha Wormhole",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "asteroid_field"
+  ],
+  "wormholes": [
+   "ALPHA"
+  ],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "79_AsteroidsAlphaWH.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "asteroid_field",
+   "wormhole",
+   "wh_alpha"
+  ]
+ },
+ {
+  "id": "80",
+  "name": "Supernova",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "supernova"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "80_Supernova.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "supernova"
+  ]
+ },
+ {
+  "id": "81",
+  "name": "Nova Seed",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": {
+   "group": "ingame",
+   "why": "Nova Seed – tworzona w trakcie gry przez bohatera Embers of Muaat."
+  },
+  "anomalies": [
+   "supernova"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "81_NovaSeed.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "supernova"
+  ]
+ },
+ {
+  "id": "82a",
+  "name": "Mallice - Locked Nexus",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "setup",
+   "why": "Wormhole Nexus (zamknięty) – kładziony obok planszy podczas przygotowania."
+  },
+  "anomalies": [],
+  "wormholes": [
+   "GAMMA"
+  ],
+  "planets": [
+   "lockedmallice"
+  ],
+  "res": 0,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Locked Mallice",
+    "name": "Exterrix Headquarters",
+    "text": "You may exhaust this card at the end of your turn to gain 2 trade goods or convert all of your commodities to trade goods."
+   }
+  ],
+  "image": "82a_Mallice_locked.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_gamma",
+   "legendary"
+  ]
+ },
+ {
+  "id": "82b",
+  "name": "Mallice - Nexus",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "setup",
+   "why": "Wormhole Nexus (otwarty) – rewers Nexusa, Mallice."
+  },
+  "anomalies": [],
+  "wormholes": [
+   "BETA",
+   "ALPHA",
+   "GAMMA"
+  ],
+  "planets": [
+   "mallice"
+  ],
+  "res": 0,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Mallice",
+    "name": "Exterrix Headquarters",
+    "text": "You may exhaust this card at the end of your turn to gain 2 trade goods or convert all of your commodities to trade goods."
+   }
+  ],
+  "image": "82b_Mallice_unlocked.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_beta",
+   "wh_alpha",
+   "wh_gamma",
+   "legendary"
+  ]
+ },
+ {
+  "id": "83a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "hyperlane",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "83b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "83b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "84b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "84b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "85b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "85b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "86b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "86b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "87b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "87b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "88b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "88b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "89b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "89b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "90b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "90b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91a",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91a_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91a60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91a60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91a120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91a120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91a180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91a180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91a240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91a240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91a300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91a300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91b",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91b_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91b60",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91b60_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91b120",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91b120_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91b180",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91b180_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91b240",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91b240_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "91b300",
+  "name": "Hyperlane",
+  "source": "pok",
+  "expansion": "pok",
+  "back": "black",
+  "category": "hyperlane",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "91b300_Hyperlane.png",
+  "hyperlane": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tags": []
+ },
+ {
+  "id": "92",
+  "name": "Ordinian/Revelation - Bastion",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [
+   "nebula"
+  ],
+  "wormholes": [],
+  "planets": [
+   "ordinian",
+   "revelation"
+  ],
+  "res": 1,
+  "inf": 2,
+  "optRes": 0,
+  "optInf": 2,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Ordinian",
+    "name": "4X41D \"Hyperion\" V1",
+    "text": "You may exhaust this card when you pass to draw 1 action card and gain 1 command token."
+   }
+  ],
+  "image": "92_Bastion.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "nebula",
+   "legendary",
+   "space_station",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "92new",
+  "name": "Archon Ren/Archon Tau - Keleres",
+  "source": "codex3",
+  "expansion": "codex",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "archonrenk",
+   "archontauk"
+  ],
+  "res": 3,
+  "inf": 4,
+  "optRes": 0.5,
+  "optInf": 3.5,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "92new_ArchonRenKeleres.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "93",
+  "name": "Mez Lo Orz Fei Zsha/Rep Lo Orz Qet - Ral Nel",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "mez",
+   "rep"
+  ],
+  "res": 3,
+  "inf": 4,
+  "optRes": 2,
+  "optInf": 3,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "93_RalNel.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "93new",
+  "name": "Ylir/Avar/Valk - Keleres",
+  "source": "codex3",
+  "expansion": "codex",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "valkk",
+   "ylirk",
+   "avark"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 2.5,
+  "optInf": 2.5,
+  "optTotal": 5,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "93new_YlirKeleres.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "94",
+  "name": "The Sorrow - Rebellion",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [
+   "EPSILON"
+  ],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "94_SorrowWH.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_epsilon"
+  ]
+ },
+ {
+  "id": "94new",
+  "name": "Moll Primus - Keleres",
+  "source": "codex3",
+  "expansion": "codex",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "mollprimusk"
+  ],
+  "res": 4,
+  "inf": 1,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "94new_MollPrimusKeleres.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "95",
+  "name": "Ikatena - Deepwrought",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "ikatena"
+  ],
+  "res": 4,
+  "inf": 4,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "95_Deepwrought.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "96a",
+  "name": "Cronos/Tallin - Firmament",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "cronos",
+   "tallin"
+  ],
+  "res": 3,
+  "inf": 3,
+  "optRes": 2,
+  "optInf": 2,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "96a_Firmament.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "96b",
+  "name": "Cronos Hollow/Tallin Hollow - Obsidian",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "cronoshollow",
+   "tallinhollow"
+  ],
+  "res": 6,
+  "inf": 0,
+  "optRes": 6,
+  "optInf": 0,
+  "optTotal": 6,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "96b_Obsidian.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "97",
+  "name": "Faunus",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "faunus"
+  ],
+  "res": 1,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [
+   "BIOTIC"
+  ],
+  "legendary": [
+   {
+    "planet": "Faunus",
+    "name": "Maxis Central Control",
+    "text": "You may exhaust this card when you pass to gain control of a non-home, non-legendary planet that contains no units and has no attachments."
+   }
+  ],
+  "image": "97_Faunus.png",
+  "hyperlane": null,
+  "tags": [
+   "legendary",
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "98",
+  "name": "Garbozia",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "garbozia"
+  ],
+  "res": 2,
+  "inf": 1,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Garbozia",
+    "name": "Dok 'N Pic's Salvage Yard",
+    "text": "You may exhaust this card when you pass to place 1 action card from the discard pile faceup on this card; you can purge cards on this card to play them as if they were in your hand."
+   }
+  ],
+  "image": "98_Garbozia.png",
+  "hyperlane": null,
+  "tags": [
+   "legendary"
+  ]
+ },
+ {
+  "id": "99",
+  "name": "Emelpar",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "emelpar"
+  ],
+  "res": 0,
+  "inf": 2,
+  "optRes": 0,
+  "optInf": 2,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Emelpar",
+    "name": "The Acropolis",
+    "text": "You may exhaust this card at the end of your turn to ready another component that isn't a strategy card."
+   }
+  ],
+  "image": "99_Emelpar.png",
+  "hyperlane": null,
+  "tags": [
+   "legendary"
+  ]
+ },
+ {
+  "id": "100",
+  "name": "Tempesta",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "tempesta"
+  ],
+  "res": 1,
+  "inf": 1,
+  "optRes": 0.5,
+  "optInf": 0.5,
+  "optTotal": 1,
+  "techSpecialties": [
+   "PROPULSION"
+  ],
+  "legendary": [
+   {
+    "planet": "Tempesta",
+    "name": "Ionian Fuel Refinery",
+    "text": "You may exhaust this card after you activate a system to apply +1 to the move value of 1 of your ships during this tactical action."
+   }
+  ],
+  "image": "100_Tempesta.png",
+  "hyperlane": null,
+  "tags": [
+   "legendary",
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "101",
+  "name": "Olergodt",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "olergodt"
+  ],
+  "res": 2,
+  "inf": 1,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [
+   "WARFARE",
+   "CYBERNETIC"
+  ],
+  "legendary": [],
+  "image": "101_Olergodt.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "102",
+  "name": "Andeara",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [
+   "ALPHA"
+  ],
+  "planets": [
+   "andeara"
+  ],
+  "res": 1,
+  "inf": 1,
+  "optRes": 0.5,
+  "optInf": 0.5,
+  "optTotal": 1,
+  "techSpecialties": [
+   "PROPULSION"
+  ],
+  "legendary": [],
+  "image": "102_Andeara.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_alpha",
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "103",
+  "name": "Vira Pics III",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "virapicsiii"
+  ],
+  "res": 2,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "103_ViraPicsIII.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "104",
+  "name": "Lesab",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "lesab"
+  ],
+  "res": 2,
+  "inf": 1,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "104_Lesab.png",
+  "hyperlane": null,
+  "tags": []
+ },
+ {
+  "id": "105",
+  "name": "New Terra/Tinnes",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "neutera",
+   "tinnes"
+  ],
+  "res": 3,
+  "inf": 2,
+  "optRes": 2.5,
+  "optInf": 0.5,
+  "optTotal": 3,
+  "techSpecialties": [
+   "BIOTIC",
+   "BIOTIC"
+  ],
+  "legendary": [],
+  "image": "105_Neutera.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "106",
+  "name": "Cresius/Lazul Rex",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "cresius",
+   "lazulrex"
+  ],
+  "res": 2,
+  "inf": 3,
+  "optRes": 1,
+  "optInf": 2,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "106_Cresius.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "107",
+  "name": "Tiamat/Hercalor",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "tiamat",
+   "hercalor"
+  ],
+  "res": 2,
+  "inf": 2,
+  "optRes": 1,
+  "optInf": 2,
+  "optTotal": 3,
+  "techSpecialties": [
+   "CYBERNETIC",
+   "CYBERNETIC"
+  ],
+  "legendary": [],
+  "image": "107_Tiamat.png",
+  "hyperlane": null,
+  "tags": [
+   "tech_specialty",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "108",
+  "name": "Kostboth/Capha",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "kostboth",
+   "capha"
+  ],
+  "res": 3,
+  "inf": 1,
+  "optRes": 3,
+  "optInf": 1,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "108_Kostboth.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "109",
+  "name": "Bellatrix/Tsion Station",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "bellatrix",
+   "tsionstation"
+  ],
+  "res": 2,
+  "inf": 3,
+  "optRes": 0.5,
+  "optInf": 2.5,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "109_Bellatrix.png",
+  "hyperlane": null,
+  "tags": [
+   "space_station",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "110",
+  "name": "Horizon/El'Nath/Luthien VI",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "horizon",
+   "elnath",
+   "luthieniv"
+  ],
+  "res": 6,
+  "inf": 3,
+  "optRes": 5,
+  "optInf": 2,
+  "optTotal": 7,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "110_Horizon.png",
+  "hyperlane": null,
+  "tags": [
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "111",
+  "name": "Tarana/Oluz Station",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "blue",
+  "category": "blue",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "tarana",
+   "oluzstation"
+  ],
+  "res": 2,
+  "inf": 3,
+  "optRes": 0.5,
+  "optInf": 2.5,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "111_Tarana.png",
+  "hyperlane": null,
+  "tags": [
+   "space_station",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "112",
+  "name": "Mecatol Rex",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "black",
+  "category": "mecatol",
+  "inPool": false,
+  "excluded": {
+   "group": "variant",
+   "why": "Mecatol Rex (Kraniec Burzy) – alternatywny kafel środkowy."
+  },
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [
+   "mrte"
+  ],
+  "res": 1,
+  "inf": 6,
+  "optRes": 0,
+  "optInf": 6,
+  "optTotal": 6,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Mecatol Rex",
+    "name": "The Galactic Council",
+    "text": "You may exhaust this card at the end of your turn and discard 1 secret objective to draw 1 secret objective."
+   }
+  ],
+  "image": "112_Mecatol.png",
+  "hyperlane": null,
+  "tags": [
+   "legendary"
+  ]
+ },
+ {
+  "id": "113",
+  "name": "Beta Rift",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "gravity_rift"
+  ],
+  "wormholes": [
+   "BETA"
+  ],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "113_BetaRift.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "gravity_rift",
+   "wormhole",
+   "wh_beta"
+  ]
+ },
+ {
+  "id": "114",
+  "name": "Entropic Scar",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "entropic_scar"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "114_EntropicScar.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "entropic_scar"
+  ]
+ },
+ {
+  "id": "115",
+  "name": "Industrex",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "asteroid_field"
+  ],
+  "wormholes": [],
+  "planets": [
+   "industrex"
+  ],
+  "res": 2,
+  "inf": 0,
+  "optRes": 2,
+  "optInf": 0,
+  "optTotal": 2,
+  "techSpecialties": [
+   "WARFARE"
+  ],
+  "legendary": [
+   {
+    "planet": "Industrex",
+    "name": "Aurex Mechanica",
+    "text": "You may exhaust this card when you pass to place 1 ship that matches a unit upgrade technology you own from your reinforcements into a system that contains your ships."
+   }
+  ],
+  "image": "115_Industrex.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "asteroid_field",
+   "legendary",
+   "tech_specialty"
+  ]
+ },
+ {
+  "id": "116",
+  "name": "Lemox",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "entropic_scar"
+  ],
+  "wormholes": [],
+  "planets": [
+   "lemox"
+  ],
+  "res": 0,
+  "inf": 3,
+  "optRes": 0,
+  "optInf": 3,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "116_Lemox.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "entropic_scar"
+  ]
+ },
+ {
+  "id": "117",
+  "name": "The Watchtower",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "red",
+  "category": "red",
+  "inPool": true,
+  "excluded": null,
+  "anomalies": [
+   "asteroid_field",
+   "gravity_rift"
+  ],
+  "wormholes": [],
+  "planets": [
+   "thewatchtower"
+  ],
+  "res": 1,
+  "inf": 1,
+  "optRes": 0.5,
+  "optInf": 0.5,
+  "optTotal": 1,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "117_TheWatchtower.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "asteroid_field",
+   "gravity_rift",
+   "space_station"
+  ]
+ },
+ {
+  "id": "118",
+  "name": "Ahk Creuxx - Rebellion",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "green",
+  "category": "home",
+  "inPool": false,
+  "excluded": {
+   "group": "setup",
+   "why": "Ahk Creuxx – prawdziwy dom Crimson Rebellion, trzymany w polu gry."
+  },
+  "anomalies": [],
+  "wormholes": [
+   "EPSILON"
+  ],
+  "planets": [
+   "ahkcreuxx"
+  ],
+  "res": 4,
+  "inf": 2,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "118_Crimson.png",
+  "hyperlane": null,
+  "tags": [
+   "wormhole",
+   "wh_epsilon"
+  ]
+ },
+ {
+  "id": "fracture1",
+  "name": "Cocytus",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "fracture",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "fracture",
+   "why": "The Fracture – osobny obszar dokładany w trakcie gry (Kraniec Burzy)."
+  },
+  "anomalies": [
+   "fracture"
+  ],
+  "wormholes": [],
+  "planets": [
+   "cocytus"
+  ],
+  "res": 3,
+  "inf": 0,
+  "optRes": 3,
+  "optInf": 0,
+  "optTotal": 3,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "fracture1.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "fracture"
+  ]
+ },
+ {
+  "id": "fracture2",
+  "name": "Fracture Egress Left",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "fracture",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "fracture",
+   "why": "The Fracture – osobny obszar dokładany w trakcie gry (Kraniec Burzy)."
+  },
+  "anomalies": [
+   "fracture"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "fracture2.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "fracture"
+  ]
+ },
+ {
+  "id": "fracture3",
+  "name": "Fracture Void Left",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "fracture",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "fracture",
+   "why": "The Fracture – osobny obszar dokładany w trakcie gry (Kraniec Burzy)."
+  },
+  "anomalies": [
+   "fracture"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "fracture3.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "fracture"
+  ]
+ },
+ {
+  "id": "fracture4",
+  "name": "Styx",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "fracture",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "fracture",
+   "why": "The Fracture – osobny obszar dokładany w trakcie gry (Kraniec Burzy)."
+  },
+  "anomalies": [
+   "fracture"
+  ],
+  "wormholes": [],
+  "planets": [
+   "styx"
+  ],
+  "res": 4,
+  "inf": 0,
+  "optRes": 4,
+  "optInf": 0,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [
+   {
+    "planet": "Styx",
+    "name": "A Song Like Marrow",
+    "text": "When you gain this card, gain 1 victory point. When you lose this card, lose 1 victory point."
+   }
+  ],
+  "image": "fracture4.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "fracture",
+   "legendary"
+  ]
+ },
+ {
+  "id": "fracture5",
+  "name": "Fracture Void Right",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "fracture",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "fracture",
+   "why": "The Fracture – osobny obszar dokładany w trakcie gry (Kraniec Burzy)."
+  },
+  "anomalies": [
+   "fracture"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "fracture5.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "fracture"
+  ]
+ },
+ {
+  "id": "fracture6",
+  "name": "Fracture Egress Right",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "fracture",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "fracture",
+   "why": "The Fracture – osobny obszar dokładany w trakcie gry (Kraniec Burzy)."
+  },
+  "anomalies": [
+   "fracture"
+  ],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "fracture6.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "fracture"
+  ]
+ },
+ {
+  "id": "fracture7",
+  "name": "Lethe/Phlegethon",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "fracture",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "fracture",
+   "why": "The Fracture – osobny obszar dokładany w trakcie gry (Kraniec Burzy)."
+  },
+  "anomalies": [
+   "fracture"
+  ],
+  "wormholes": [],
+  "planets": [
+   "lethe",
+   "phlegethon"
+  ],
+  "res": 1,
+  "inf": 4,
+  "optRes": 0,
+  "optInf": 4,
+  "optTotal": 4,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "fracture7.png",
+  "hyperlane": null,
+  "tags": [
+   "anomaly",
+   "fracture",
+   "multi_planet"
+  ]
+ },
+ {
+  "id": "silver_flame",
+  "name": "Remnants of The Silver Flame",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "back": "black",
+  "category": "special",
+  "inPool": false,
+  "excluded": {
+   "group": "ingame",
+   "why": "Remnants of The Silver Flame – kafel wchodzący do gry efektem."
+  },
+  "anomalies": [],
+  "wormholes": [],
+  "planets": [],
+  "res": 0,
+  "inf": 0,
+  "optRes": 0,
+  "optInf": 0,
+  "optTotal": 0,
+  "techSpecialties": [],
+  "legendary": [],
+  "image": "silver_flame.png",
+  "hyperlane": null,
+  "tags": []
+ }
+]

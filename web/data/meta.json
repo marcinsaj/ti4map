@@ -1,0 +1,220 @@
+{
+ "expansions": {
+  "base": {
+   "id": "base",
+   "name": "Podstawka",
+   "short": "Podst.",
+   "sources": [
+    "base"
+   ]
+  },
+  "pok": {
+   "id": "pok",
+   "name": "Proroctwo Królów",
+   "short": "PK",
+   "sources": [
+    "pok"
+   ]
+  },
+  "codex": {
+   "id": "codex",
+   "name": "Codex – Rada Keleres",
+   "short": "Codex",
+   "sources": [
+    "codex3"
+   ]
+  },
+  "te": {
+   "id": "te",
+   "name": "Kraniec Burzy",
+   "short": "KB",
+   "sources": [
+    "thunders_edge"
+   ]
+  }
+ },
+ "pl": {
+  "planetTypes": {
+   "CULTURAL": "kulturalna",
+   "INDUSTRIAL": "przemysłowa",
+   "HAZARDOUS": "niegościnna",
+   "SPACESTATION": "stacja kosmiczna",
+   "FACTION": "ojczysta",
+   "NONE": "bez cechy"
+  },
+  "tech": {
+   "BIOTIC": "biotyczna (zielona)",
+   "WARFARE": "wojenna (czerwona)",
+   "PROPULSION": "napędowa (niebieska)",
+   "CYBERNETIC": "cybernetyczna (żółta)"
+  },
+  "wormholes": {
+   "ALPHA": "alfa (α)",
+   "BETA": "beta (β)",
+   "GAMMA": "gamma (γ)",
+   "DELTA": "delta (δ)",
+   "EPSILON": "epsilon (ε)"
+  },
+  "anomalies": {
+   "supernova": "supernowa",
+   "nebula": "mgławica",
+   "asteroid_field": "pole asteroid",
+   "gravity_rift": "rozdarcie grawitacyjne",
+   "entropic_scar": "entropiczna blizna",
+   "fracture": "Fracture"
+  },
+  "backs": {
+   "blue": "niebieski",
+   "red": "czerwony",
+   "green": "zielony (dom)",
+   "black": "czarny (specjalny)",
+   "fracture": "Fracture",
+   "hyperlane": "hiperpas"
+  },
+  "categories": {
+   "blue": "system niebieski",
+   "red": "system czerwony",
+   "home": "system domowy",
+   "mecatol": "Mecatol Rex",
+   "hyperlane": "hiperpas",
+   "special": "kafel specjalny"
+  },
+  "leaderTypes": {
+   "agent": "agent",
+   "commander": "dowódca",
+   "hero": "bohater",
+   "envoy": "wysłannik",
+   "mech": "mech"
+  },
+  "complexity": {
+   "Low": "niska",
+   "Moderate": "średnia",
+   "Medium": "średnia",
+   "High": "wysoka",
+   "VeryHigh": "bardzo wysoka"
+  },
+  "cardTypes": {
+   "agent": "agent",
+   "commander": "dowódca",
+   "hero": "bohater",
+   "unitupgrade": "ulepszenie jednostki",
+   "biotic": "biotyczna",
+   "warfare": "wojenna",
+   "propulsion": "napędowa",
+   "cybernetic": "cybernetyczna",
+   "none": "—"
+  },
+  "techColors": {
+   "BIOTIC": {
+    "name": "biotyczna",
+    "colour": "zielona",
+    "letter": "G",
+    "css": "#3fb950"
+   },
+   "WARFARE": {
+    "name": "wojenna",
+    "colour": "czerwona",
+    "letter": "R",
+    "css": "#e8443a"
+   },
+   "PROPULSION": {
+    "name": "napędowa",
+    "colour": "niebieska",
+    "letter": "B",
+    "css": "#3d8bff"
+   },
+   "CYBERNETIC": {
+    "name": "cybernetyczna",
+    "colour": "żółta",
+    "letter": "Y",
+    "css": "#f0c419"
+   },
+   "UNITUPGRADE": {
+    "name": "ulepszenie jednostki",
+    "colour": "szara",
+    "letter": "U",
+    "css": "#9aa4b2"
+   }
+  },
+  "units": {
+   "carrier": "transportowiec",
+   "cruiser": "krążownik",
+   "destroyer": "niszczyciel",
+   "dreadnought": "pancernik",
+   "fighter": "myśliwiec",
+   "infantry": "piechota",
+   "flagship": "okręt flagowy",
+   "warsun": "słońce wojny",
+   "spacedock": "stocznia kosmiczna",
+   "pds": "PDS",
+   "mech": "mech",
+   "monument": "monument"
+  },
+  "unitAbilities": {
+   "sustainDamage": "WYTRZYMAŁOŚĆ",
+   "planetaryShield": "TARCZA PLANETARNA",
+   "spaceCannon": "DZIAŁO KOSMICZNE",
+   "deepSpaceCannon": "DZIAŁO KOSMICZNE (głębokie)",
+   "bombardment": "BOMBARDOWANIE",
+   "antiFighterBarrage": "OSTRZAŁ PRZECIWMYŚLIWSKI",
+   "production": "PRODUKCJA"
+  },
+  "stats": {
+   "cost": "KOSZT",
+   "combat": "WALKA",
+   "move": "RUCH",
+   "capacity": "ŁADOWNOŚĆ",
+   "production": "PRODUKCJA"
+  },
+  "factions": {
+   "sol": "Federacja Sol",
+   "xxcha": "Królestwo Xxcha",
+   "letnev": "Baronia Letnev",
+   "jolnar": "Uniwersytety Jol-Nar",
+   "hacan": "Emiraty Hakanów",
+   "sardakk": "Sardakk N’orr",
+   "yin": "Bractwo Yin",
+   "saar": "Klan Saar",
+   "l1z1x": "Współjaźń L1Z1X",
+   "nekro": "Nekrowirus",
+   "ghost": "Widma z Creussa",
+   "muaat": "Żagwie Muaat",
+   "naaz": "Sojusz Naaz-Rokha",
+   "arborec": "Arborec",
+   "winnu": "Winnu",
+   "bastion": "Ostatni Bastion",
+   "crimson": "Karmazynowa Rebelia",
+   "firmament": "Firmament",
+   "obsidian": "Obsydian",
+   "deepwrought": "Akademia Przepastnych Archiwów"
+  }
+ },
+ "stats": {
+  "generatedAt": "2026-09-07T12:19:18.307Z",
+  "systems": 231,
+  "planets": 162,
+  "factions": 33,
+  "poolByExpansion": {
+   "base": {
+    "blue": 20,
+    "red": 12,
+    "home": 18
+   },
+   "pok": {
+    "blue": 16,
+    "red": 6,
+    "home": 8
+   },
+   "codex": {
+    "blue": 0,
+    "red": 0,
+    "home": 3
+   },
+   "te": {
+    "blue": 15,
+    "red": 5,
+    "home": 7
+   }
+  }
+ }
+}

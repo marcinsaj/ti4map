@@ -1,0 +1,14 @@
+{
+  "name": "ti4-map-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generator map do Twilight Imperium 4 (podstawka + Prophecy of Kings + Thunder's Edge)",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "fetch:tiles": "node scripts/fetch-tile-images.mjs",
+    "start": "node server.mjs",
+    "dev": "node scripts/build-data.mjs && node server.mjs",
+    "vendor": "git clone --depth 1 --filter=blob:none --sparse https://github.com/AsyncTI4/TI4_map_generator_bot.git vendor/async && cd vendor/async && git sparse-checkout set src/main/resources/systems src/main/resources/planets src/main/resources/data"
+  }
+}

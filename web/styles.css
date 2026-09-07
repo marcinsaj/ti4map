@@ -1,0 +1,406 @@
+:root {
+  --bg: #0b0e14;
+  --panel: #141923;
+  --panel2: #1c2331;
+  --line: #2a3446;
+  --text: #dfe6f2;
+  --muted: #8a97ad;
+  --accent: #f0c419;
+  --warn: #ff8a3d;
+  --bad: #e8443a;
+  --anomaly: #ff2626;   /* jaskrawsza czerwień – tylko dla anomalii */
+  --ok: #31b34a;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--bg); color: var(--text);
+  font: 14px/1.5 "Segoe UI", system-ui, sans-serif;
+  display: flex; flex-direction: column;
+}
+h1, h2, h3 { margin: 0 0 .4em; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-top: 1.6em; }
+a { color: var(--accent); }
+button {
+  background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+  border-radius: 6px; padding: 5px 10px; cursor: pointer; font: inherit;
+}
+button:hover { border-color: var(--accent); }
+button.primary { background: var(--accent); color: #1a1400; border-color: var(--accent); font-weight: 600; }
+button.active { background: var(--accent); color: #1a1400; border-color: var(--accent); }
+input, select, textarea {
+  background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+  border-radius: 6px; padding: 4px 6px; font: inherit;
+}
+select { width: 100%; }
+textarea { width: 100%; font-family: ui-monospace, Consolas, monospace; font-size: 12px; line-height: 1.4; }
+code { background: #0006; padding: 0 4px; border-radius: 3px; color: var(--accent); }
+.muted { color: var(--muted); font-style: normal; }
+.hidden { display: none; }
+
+.topbar {
+  display: flex; align-items: center; gap: 16px;
+  padding: 10px 16px; background: var(--panel); border-bottom: 1px solid var(--line);
+}
+.topbar h1 { font-size: 17px; }
+.topbar h1 span { color: var(--muted); font-weight: 400; }
+.topbar-actions { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+
+/* ---------------- pasek „Na mapie” ---------------- */
+/* Drugi rząd nad mapą, pod paskiem z Opcjami/Podsumowaniem/Szczegółami. */
+#viewbar {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 6px 12px; background: var(--panel2); border-bottom: 1px solid var(--line);
+  font-size: 12px; flex: 0 0 auto;
+}
+.viewbar-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--muted);
+  white-space: nowrap;
+}
+#view-options { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+#view-options label {
+  display: flex; align-items: center; gap: 5px; white-space: nowrap; cursor: pointer;
+}
+#view-options label:hover { color: var(--accent); }
+
+/* Pierwszeństwo ma mapa: panele boczne dostają tyle, ile trzeba, żeby dało się je czytać,
+   a cała reszta okna idzie na mapę. Oba panele można dodatkowo zwinąć (Alt+1 / Alt+2). */
+:root { --side-left: clamp(330px, 23vw, 480px); --side-right: clamp(320px, 35vw, 700px); --rail: 8px; }
+body.left-collapsed { --side-left: var(--rail); }
+body.right-collapsed { --side-right: var(--rail); }
+
+main { flex: 1; display: grid; grid-template-columns: var(--side-left) minmax(420px, 1fr) var(--side-right); min-height: 0; }
+@media (max-width: 1400px) { :root { --side-left: 320px; --side-right: 320px; } }
+
+#sidebar, #inspector { position: relative; }
+#sidebar { background: var(--panel); border-right: 1px solid var(--line); overflow-y: auto; padding: 0 16px 48px; }
+
+/* przyciski zwijania paneli – w pasku nad mapą, żeby nie zasłaniały treści */
+/* Przyciski rozwijanych paneli – żółte, żeby od razu było widać, że coś rozwijają. */
+.panel-toggle {
+  font-size: 12px; font-weight: 600; letter-spacing: .01em;
+  color: var(--accent); border-color: var(--accent); background: #f0c4191a;
+  padding: 4px 10px; white-space: nowrap;
+}
+.panel-toggle:hover { background: #f0c41933; }
+.panel-toggle.active { background: var(--accent); color: #1a1400; }
+body.left-collapsed #sidebar, body.right-collapsed #inspector { padding: 0; overflow: hidden; }
+body.left-collapsed #sidebar > *, body.right-collapsed #inspector > * { display: none; }
+.tabs { position: sticky; top: 0; background: var(--panel); display: flex; gap: 4px; padding: 10px 0; z-index: 5; border-bottom: 1px solid var(--line); }
+.tabs button { flex: 1; padding: 5px 2px; font-size: 12px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { flex: 0 0 auto; }
+.checklist { display: flex; flex-direction: column; gap: 4px; }
+.btnrow { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+.row { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
+.row > span:first-of-type { flex: 1; }
+.row input[type=number] { width: 78px; }
+.row input[type=range] { flex: 1; min-width: 120px; }
+.row output { width: 32px; text-align: right; color: var(--accent); font-variant-numeric: tabular-nums; }
+.weight { border-bottom: 1px solid var(--line); padding: 6px 0; }
+.weight:last-child { border-bottom: none; }
+.wdesc { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+.weights.disabled { opacity: .45; pointer-events: none; }
+.hint { color: var(--muted); font-size: 12px; margin: 6px 0; }
+.hint.warn { color: var(--warn); }
+
+.player { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; margin-bottom: 8px; background: var(--panel2); }
+.phead { display: flex; align-items: center; gap: 6px; }
+.player .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 3px; border: 1px solid #0006; }
+.player .swatch.none { background: repeating-linear-gradient(45deg, #c9d2e0 0 3px, #9aa5b6 3px 6px); }
+
+/* wybór barwy systemu domowego */
+.colorpick { display: flex; flex-wrap: wrap; gap: 5px; margin: 6px 0 2px; }
+.cswatch {
+  width: 26px; height: 22px; padding: 0; border-radius: 5px;
+  border: 2px solid transparent; position: relative;
+}
+.cswatch:hover { border-color: #fff8; }
+.cswatch.active { border-color: #fff; box-shadow: 0 0 0 2px #000, 0 0 0 3px var(--accent); }
+.cswatch[disabled] { opacity: .28; cursor: not-allowed; }
+.cswatch[disabled]:hover { border-color: transparent; }
+.cswatch.clear {
+  background: none; border: 1px dashed var(--line); color: var(--muted);
+  width: auto; padding: 0 8px; font-size: 11px;
+}
+.cswatch.clear:hover { color: var(--accent); border-color: var(--accent); }
+.player.nocolor { border-color: var(--warn); }
+.player.nocolor .cname { color: var(--warn); }
+.cname { font-size: 11px; color: var(--muted); }
+.phead .numsel { width: auto; margin-left: auto; font-size: 11px; padding: 2px 4px; }
+#first-seat { width: auto; min-width: 150px; }
+.orderdir { padding: 4px 0 2px; }
+.orderdir > span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 5px; }
+/* kierunek numerowania – same ikony strzałki po okręgu; opis kierunku jest niżej w zdaniu */
+.dirchip {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  padding: 4px 9px; font-size: 12px;
+}
+.dirchip svg { display: block; flex: 0 0 auto; }
+.player select { margin: 6px 0; }
+#btn-first-seat.picking { background: var(--accent); color: #1a1400; border-color: var(--accent); }
+.pnote { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.pnote.warn { color: var(--warn); }
+.aff { border-left: 3px solid var(--line); padding-left: 8px; margin: 10px 0; }
+
+.digest-item { margin-bottom: 10px; }
+.digest-item p { margin: 2px 0; font-size: 12px; color: var(--muted); }
+
+.tile-toolbar { display: flex; gap: 6px; margin-bottom: 8px; }
+.tile-toolbar input { flex: 1; }
+.tile-list { display: flex; flex-direction: column; }
+.trow { display: grid; grid-template-columns: 18px 10px 52px 1fr auto auto auto; gap: 8px; align-items: center; padding: 2px 0; font-size: 12px; }
+/* czerwona kropka przy kaflu z anomalią – ten sam sygnał, co czerwone narożniki na mapie */
+.adot { width: 9px; height: 9px; border-radius: 50%; background: var(--anomaly); display: inline-block; }
+.adot.none { background: none; }
+.tpeek { font-size: 10.5px; padding: 1px 7px; color: var(--accent); border-color: #3f4a5e; }
+.tpeek:hover { border-color: var(--accent); background: #f0c4191a; }
+.trow:hover { background: #ffffff08; }
+.tname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tval { color: var(--accent); font-variant-numeric: tabular-nums; }
+.ttags { color: var(--muted); font-size: 11px; white-space: nowrap; }
+details summary { cursor: pointer; padding: 6px 0; color: var(--text); font-weight: 600; }
+
+.cards .card { border-top: 1px solid var(--line); padding: 6px 0; }
+.cards .card p { margin: 2px 0; font-size: 12px; color: var(--muted); }
+
+/* Mapa dostaje całą wysokość sceny; podsumowanie wysuwa się nad nią (patrz #report-drawer). */
+#stage { position: relative; display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+/* Pasek trzymamy w jednym rządku tak długo, jak się da – każda linia zabiera wysokość mapie.
+   Gdy okno jest wąskie, zawija się (nic nie znika), a pierwszy zwęża się skrót podsumowania. */
+#map-toolbar {
+  display: flex; gap: 10px; align-items: center; padding: 8px 12px;
+  border-bottom: 1px solid var(--line); background: var(--panel); font-size: 12px; flex-wrap: wrap;
+}
+#map-toolbar > * { flex: 0 0 auto; white-space: nowrap; }
+#map-toolbar label { display: flex; align-items: center; gap: 4px; }
+#map-toolbar .spacer { flex: 1 1 0; min-width: 0; }
+/* skrót podsumowania oddaje miejsce przyciskom – zwęża się aż do zera, byle pasek został w jednym rządku */
+#map-wrap {
+  position: relative; flex: 1; min-height: 0; overflow: hidden; padding: 10px;
+  background: radial-gradient(ellipse at center, #131a26 0%, #080a10 75%);
+}
+
+/* ---------------- legenda symboli ---------------- */
+/* Druga połowa prawego panelu, obok przeglądu mapy. Przewija się osobno.
+   Bez własnego tła, ramki i zaokrągleń – legenda jest częścią tego samego panelu,
+   a nie osobnym oknem w oknie. Od przeglądu mapy oddziela ją jedna pionowa kreska. */
+#legend {
+  min-height: 0; display: flex; flex-direction: column;
+  border-left: 1px solid var(--line); padding-left: 14px;
+}
+#legend-head {
+  display: flex; align-items: center; gap: 8px; padding: 0 0 6px;
+  border-bottom: 1px solid var(--line);
+}
+#legend-head strong { flex: 1; font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); }
+#legend-scroll { overflow-y: auto; padding: 4px 6px 12px 0; }
+/* Poniżej tej szerokości okna prawy panel nie mieści dwóch kolumn i auto-fit układa je
+   jedna pod drugą – wtedy zamiast pionowej kreski rozdziela je pozioma. */
+@media (max-width: 1400px) {
+  #legend { border-left: none; padding-left: 0; border-top: 1px solid var(--line); padding-top: 10px; }
+  #inspector-body { padding-right: 0; }
+}
+#legend h4 {
+  margin: 10px 0 4px; font-size: 10.5px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--accent); border-bottom: 1px solid var(--line); padding-bottom: 3px;
+}
+.lgrow { display: grid; grid-template-columns: 46px 1fr; gap: 9px; padding: 5px 0; align-items: center; }
+/* Wiersze z barwami kafli dostają jaśniejszą podkładkę – na tle samej legendy ciemne
+   odcienie kafli (np. granat pustego gniazda) były nie do odróżnienia od tła panelu. */
+.lgrow.tilebg { background: #263041; border: 1px solid #3a465c; border-radius: 7px; padding: 5px 7px; margin: 3px 0; }
+.lgsym { display: flex; align-items: center; justify-content: center; min-height: 30px; }
+.lgsym .txt { color: #ffe9a8; font-size: 21px; line-height: 1; }
+.lgsym .txt.val { color: #ffd76a; font-weight: 700; font-size: 18px; }
+/* kilka znaków naraz – muszą się zmieścić w kolumnie próbek, więc mniejszy stopień pisma */
+.lgsym .txt.multi { font-size: 13px; line-height: 1.2; text-align: center; word-spacing: -1px; }
+/* numery w rogach heksa: na mapie leżą na własnej podkładce – w legendzie trzeba im dać
+   taką samą, inaczej sam napis ginąłby w tle panelu. Barwy przychodzą z render.js. */
+.lgsym .txt.chip {
+  font-size: 15px; font-weight: 600;
+  border: 1px solid #ffffff2e; border-radius: 4px; padding: 3px 6px;
+}
+.lgsym .box { width: 36px; height: 24px; border-radius: 4px; border: 1px solid #ffffffb0; }
+.lgsym .ring { width: 30px; height: 30px; border-radius: 50%; border: 3px solid #fff; }
+.lgsym .slice { width: 36px; height: 24px; border-radius: 4px; }
+.lgsym svg { display: block; }
+.lgname { font-size: 11.5px; color: var(--text); font-weight: 600; }
+.lgdesc { font-size: 11px; color: var(--muted); margin: 1px 0 0; line-height: 1.35; }
+/* akapit „co to za grupa” – stoi między nagłówkiem a listą symboli */
+.lgintro { font-size: 11px; color: #aab6c8; margin: 4px 0 8px; line-height: 1.4; }
+#map { width: 100%; height: 100%; }
+.tile { cursor: pointer; }
+/* nazwy leżą nad kaflami – długa nazwa wychodzi poza swój heks, ale nie może zabierać
+   kliknięć sąsiadowi, na którego wystaje */
+.labels { pointer-events: none; }
+.tile:hover .tile-border { stroke: var(--accent) !important; }
+.lbl { fill: #dfe6f2; font-size: 13px; paint-order: stroke; stroke: #000a; stroke-width: 3px; }
+.lbl.empty { fill: #4a5568; }
+/* Nazwa systemu ma wąski pas między ikonami a wartościami. Krój wąski („Arial Narrow”,
+   dalej zwężone warianty innych systemów) mieści więcej liter przy większym stopniu pisma,
+   więc nazwa jest czytelniejsza niż przy 10 px zwykłego Segoe UI. */
+.lbl.name {
+  font-family: "Arial Narrow", "Liberation Sans Narrow", "Nimbus Sans Narrow",
+    "Segoe UI", system-ui, sans-serif;
+  font-size: 11px; font-weight: 600; letter-spacing: .2px;
+}
+.badge { fill: #ffe9a8; font-size: 15px; paint-order: stroke; stroke: #000c; stroke-width: 3px; }
+.val { fill: #ffd76a; font-size: 14px; font-weight: 700; paint-order: stroke; stroke: #000c; stroke-width: 3px; }
+.home-icon { pointer-events: none; }
+.home-num { font-weight: 700; pointer-events: none; }
+.red-corner { pointer-events: none; }
+.share { font-size: 10px; font-weight: 700; paint-order: stroke; stroke: #000c; stroke-width: 3px; }
+/* numery w rogach heksa – barwę każdy dostaje inline, bo są dwie różne */
+.pos-num { font-size: 9px; font-weight: 600; pointer-events: none; }
+.pos-plate { pointer-events: none; }
+
+/* ---------------- szuflada z podsumowaniem pod mapą ---------------- */
+/* Leży NAD mapą, a nie obok niej – dzięki temu mapa zawsze ma pełną wysokość sceny. */
+#report-drawer {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 6;
+  display: flex; flex-direction: column; max-height: 62%;
+  background: var(--panel); border-top: 1px solid var(--accent);
+  box-shadow: 0 -14px 34px #000a;
+  transition: transform .18s ease;
+}
+#report-drawer.closed { transform: translateY(100%); pointer-events: none; }
+#report-head {
+  display: flex; align-items: center; gap: 12px; flex: 0 0 auto;
+  padding: 7px 14px; border-bottom: 1px solid var(--line); background: var(--panel2);
+}
+#report-head strong { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); white-space: nowrap; }
+#report-head .hint { margin: 0; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#report { flex: 1; min-height: 0; overflow: auto; padding: 10px 14px 18px; }
+
+/* skrót najważniejszych liczb – widoczny w pasku także przy zamkniętej szufladzie */
+.brief { flex: 0 1 auto; min-width: 0; color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.badge2 { background: var(--panel2); border: 1px solid var(--line); border-radius: 20px; padding: 2px 10px; font-size: 12px; cursor: help; }
+.badge2.ok { border-color: var(--ok); color: #9ee7ab; }
+.badge2.bad { border-color: var(--bad); color: #ffb0aa; }
+.alert { border: 1px solid var(--warn); color: var(--warn); border-radius: 6px; padding: 6px 10px; margin-bottom: 8px; font-size: 13px; }
+table.stats { border-collapse: collapse; width: 100%; font-size: 12px; }
+table.stats caption { caption-side: top; text-align: left; color: var(--muted); font-size: 12px; padding-bottom: 4px; }
+table.stats th, table.stats td { border-bottom: 1px solid var(--line); padding: 4px 6px; text-align: right; }
+table.stats th:first-child, table.stats td:first-child,
+table.stats th:nth-child(2), table.stats td:nth-child(2) { text-align: left; }
+table.stats th { color: var(--muted); font-weight: 500; cursor: help; border-bottom-color: var(--accent); }
+.legend { margin-top: 10px; font-size: 12px; color: var(--muted); }
+.legend p { margin: 4px 0; }
+.legend strong { color: var(--text); }
+
+/* Prawy panel dzieli się dokładnie na pół: lewa połowa to przegląd mapy / szczegóły
+   klikniętego kafla, prawa to legenda. Przy wąskim oknie kolumny układają się jedna
+   pod drugą (auto-fit), ale dopóki obie się mieszczą, mają identyczną szerokość. */
+#inspector {
+  background: var(--panel); border-left: 1px solid var(--line); padding: 14px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0; align-items: stretch; overflow: hidden;
+}
+#inspector-body { overflow-y: auto; min-height: 0; padding-right: 14px; }
+/* Obrys odcina grafikę kafla od ciemnego tła panelu – bez niego zlewa się z nim. */
+.tilepic {
+  width: 100%; border-radius: 8px; margin: 8px 0;
+  border: 2px solid #4a5566; background: #0e1219;
+}
+.planet { border-top: 1px solid var(--line); padding: 6px 0; }
+
+/* Karta wybranego systemu – siedzi między nagłówkiem panelu a kreską, za którą zaczyna
+   się ogólny przegląd mapy. Grafika kafla jest pierwsza, cały opis idzie pod nią. */
+.picked { margin: 10px 0 0; }
+.picked h3 { margin: 8px 0 2px; }
+.picked .tilepic { margin-top: 0; }
+.ovsep { border-top: 1px solid var(--line); margin: 14px 0 4px; }
+
+/* ---------------- przełącznik widoku ---------------- */
+.viewswitch { display: flex; gap: 4px; margin-left: 8px; }
+.viewswitch button { padding: 5px 14px; }
+.viewswitch button.active { background: var(--accent); color: #1a1400; border-color: var(--accent); font-weight: 600; }
+
+/* ---------------- biblioteka (rasy i karty) ---------------- */
+#library { display: none; grid-column: 1 / -1; min-width: 0; min-height: 0; overflow-y: auto; padding: 14px 24px 60px; }
+body.view-library main { grid-template-columns: 1fr; }
+body.view-library #library { display: block; }
+body.view-library #stage, body.view-library #inspector, body.view-library #sidebar { display: none; }
+
+.lib-tabs { display: flex; gap: 6px; flex-wrap: wrap; position: sticky; top: 0; background: var(--bg); padding: 4px 0 10px; z-index: 4; }
+.lib-filters { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; padding: 8px 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+.lib-search { position: relative; display: flex; align-items: center; flex: 1 1 320px; min-width: 240px; max-width: 520px; }
+.lib-search input[type=search] { width: 100%; padding-right: 30px; }
+.lib-search input[type=search]::-webkit-search-cancel-button { display: none; }
+.search-clear, #tile-search-clear {
+  background: none; border: none; color: var(--muted); font-size: 12px; padding: 2px 6px; line-height: 1;
+}
+.search-clear { position: absolute; right: 2px; }
+.search-clear:hover, #tile-search-clear:hover { color: var(--accent); border: none; }
+.lib-selects { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.lib-filter { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+.lib-filter select { width: auto; min-width: 150px; }
+.lib-hint { color: var(--muted); font-size: 12px; }
+.lib-lead { color: var(--muted); font-size: 13px; max-width: 90ch; margin: 0 0 14px; }
+.lib-section { margin-bottom: 22px; }
+.lib-section h3 { font-size: 14px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.lcard { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.lcard header { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 4px; }
+.lcard p { margin: 4px 0; font-size: 12.5px; }
+.lcard ul { margin: 4px 0; padding-left: 18px; font-size: 12.5px; }
+.lcard .note { color: var(--muted); font-size: 11.5px; }
+.lcard .abil { color: var(--accent); font-size: 11.5px; letter-spacing: .02em; }
+.dot { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 auto; }
+.tag { font-size: 10.5px; border: 1px solid var(--line); border-radius: 10px; padding: 0 7px; color: var(--muted); white-space: nowrap; }
+.tag.faction { border-color: #4a5a75; color: #b9c8e0; white-space: normal; max-width: 100%; overflow-wrap: anywhere; }
+.tag.exp { border-color: #3a4657; }
+.pips { display: inline-flex; gap: 3px; align-items: center; }
+.pips.none { color: var(--muted); font-size: 11px; }
+.pip { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
+.stats-row { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: var(--text); margin: 2px 0 4px; }
+.stats-row .stat em { color: var(--muted); font-style: normal; font-size: 10.5px; letter-spacing: .04em; }
+
+.faction-layout { display: grid; grid-template-columns: 280px 1fr; gap: 18px; align-items: start; }
+.faction-list { display: flex; flex-direction: column; gap: 2px; position: sticky; top: 46px; max-height: calc(100vh - 160px); overflow-y: auto; }
+.faction-item { display: flex; justify-content: space-between; align-items: center; gap: 8px; text-align: left; background: none; border: 1px solid transparent; }
+.faction-item:hover { background: #ffffff08; }
+.faction-item.active { background: var(--panel2); border-color: var(--accent); }
+.faction-item .fname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.faction-detail h2 { font-size: 20px; }
+.warnbox { border-left: 3px solid var(--warn); padding: 4px 10px; color: var(--warn); font-size: 12.5px; background: #ff8a3d12; }
+.notebox { border-left: 3px solid var(--line); padding: 4px 10px; color: var(--muted); font-size: 12.5px; }
+button.linkish { background: none; border: none; color: var(--accent); padding: 4px 0; font-size: 12px; text-align: left; }
+button.linkish:hover { text-decoration: underline; }
+
+@media (max-width: 1200px) { .faction-layout { grid-template-columns: 1fr; } .faction-list { position: static; max-height: 240px; } }
+
+/* ---------------- weksle: wyraźny podział na główne i rasowe ---------------- */
+.pn-block { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px 16px; background: #ffffff05; }
+.pn-block + .pn-block { margin-top: 20px; }
+.pn-generic { border-color: #4a5a75; }
+.pn-generic .lcard { border-color: #3f5170; }
+.lcard.generic { background: var(--panel2); }
+.tag.main { border-color: var(--accent); color: var(--accent); }
+
+/* ---------------- rozbicie kary balansu ---------------- */
+table.stats.balance { margin-top: 14px; }
+table.stats.balance tfoot td { font-weight: 600; color: var(--accent); border-top: 1px solid var(--accent); }
+table.stats.balance tr.muted-row td { color: var(--muted); }
+
+/* ---------------- wyjaśnienie „jak to działa” ---------------- */
+.explain { border: 1px solid var(--line); border-radius: 8px; background: var(--panel2); padding: 6px 10px; margin-bottom: 10px; }
+.explain summary { font-weight: 600; font-size: 12.5px; color: var(--accent); }
+.explain ol { margin: 8px 0; padding-left: 20px; font-size: 12px; color: var(--muted); }
+.explain li { margin-bottom: 4px; }
+.explain p { font-size: 12px; color: var(--muted); margin: 6px 0; }
+.explain strong { color: var(--text); }
+.explain code { font-size: 11.5px; }
+.chips.disabled, .btnrow.disabled { opacity: .45; pointer-events: none; }
+
+/* ---------------- przegląd mapy w prawym panelu ---------------- */
+.overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 8px; margin: 10px 0 4px; }
+.ovcell { background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
+.ovcell strong { display: block; font-size: 18px; color: var(--accent); font-variant-numeric: tabular-nums; }
+.ovcell span { font-size: 11px; color: var(--muted); }
+.orow { display: grid; grid-template-columns: minmax(120px, auto) 1fr; gap: 10px; padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 12px; }
+.olabel { color: var(--text); }
+.oval { color: var(--muted); }

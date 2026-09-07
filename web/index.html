@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generator map – Twilight Imperium 4</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>Generator map <span>Twilight Imperium 4</span></h1>
+  <nav class="viewswitch" id="viewswitch">
+    <button data-appview="map" class="active">Mapa</button>
+    <button data-appview="library">Rasy i karty</button>
+  </nav>
+  <div class="topbar-actions">
+    <button id="btn-generate" class="primary">Generuj mapę</button>
+  </div>
+</header>
+
+<main>
+  <aside id="sidebar">
+    <nav class="tabs" id="tabs">
+      <button data-tab="players" class="active">Gracze</button>
+      <button data-tab="game">Gra</button>
+      <button data-tab="rules">Zasady</button>
+      <button data-tab="tiles">Kafle</button>
+      <button data-tab="save">Zapis</button>
+    </nav>
+
+    <section class="tab hidden" data-tab="game">
+      <h2>Dodatki</h2>
+      <p class="hint">Włączenie dodatku dorzuca jego kafle do puli losowania i jego rasy do listy wyboru.</p>
+      <div id="expansions" class="checklist"></div>
+
+      <h2>Typ mapy</h2>
+      <select id="layout"></select>
+      <p id="layout-info" class="hint"></p>
+
+      <h2>Sposób generowania</h2>
+      <div id="mode" class="chips"></div>
+      <p id="mode-info" class="hint"></p>
+
+      <h2>Wagi balansu</h2>
+      <details class="explain" open>
+        <summary>Jak generator liczy „równość” mapy?</summary>
+        <ol>
+          <li>Każde gniazdo planszy przypisuje graczowi, który ma do niego najbliżej
+            (gniazdo w równej odległości od dwóch graczy liczy się każdemu po połowie).
+            Tak powstaje <strong>obszar gracza</strong>.</li>
+          <li>Dla każdego kryterium z listy poniżej liczy jego wartość w obszarze każdego gracza,
+            a potem <strong>rozpiętość</strong> = ile ma najbogatszy gracz minus ile ma najuboższy.
+            Mapa idealnie równa ma same zera.</li>
+          <li>Rozpiętości mnoży przez wagi i sumuje – ta suma to <strong>kara</strong>:<br>
+            <code>kara = Σ (waga kryterium × rozpiętość kryterium)</code></li>
+          <li>Następnie wielokrotnie zamienia dwa losowe kafle miejscami i zostawia te zamiany,
+            które karę zmniejszają. Wynik z najmniejszą karą trafia na planszę.</li>
+        </ol>
+        <p>Waga <strong>0</strong> – kryterium całkowicie pomijane. Waga <strong>10</strong> – punkt
+          różnicy w tym kryterium boli dziesięć razy bardziej niż przy wadze 1. Liczy się wyłącznie
+          <em>stosunek</em> wag do siebie, a nie ich wysokość: komplet 2–2–2 daje ten sam wynik co 6–6–6.</p>
+        <p>Rozbicie kary na kryteria dla aktualnej mapy zobaczysz w tabeli pod mapą.
+          Wagi działają wyłącznie w trybie „Zbalansowana”.</p>
+      </details>
+      <div class="btnrow" id="weight-presets"></div>
+      <div id="weights" class="weights"></div>
+
+      <h2>Dokładność optymalizacji</h2>
+      <p class="hint">Iteracja = jedna próba zamiany dwóch kafli miejscami. Generator przyjmuje
+        zamianę, gdy mapa staje się równiejsza, a od czasu do czasu także gorszą – dzięki temu nie
+        utyka w kiepskim układzie (metoda „symulowanego wyżarzania”). Więcej iteracji = równiejsza
+        mapa kosztem czasu liczenia. Przy większej liczbie graczy warto dać więcej.</p>
+      <div id="iterations" class="chips"></div>
+      <p id="iterations-info" class="hint"></p>
+    </section>
+
+    <section class="tab" data-tab="players">
+      <h2>Liczba graczy</h2>
+      <p class="hint">Liczba graczy ustawia domyślny typ mapy i tyle systemów domowych na planszy.
+        Zmiana przelicza listę graczy poniżej.</p>
+      <div id="player-count" class="chips"></div>
+
+      <h2>Kolejność graczy przy stole</h2>
+      <p class="hint">Numery graczy idą <strong>dookoła planszy</strong>, bo tak samo siedzi się przy
+        stole. Wystarczy więc wskazać, w którym gnieździe siedzi <strong>gracz 1</strong> – generator
+        sam ponumeruje pozostałe gniazda po kolei w wybranym kierunku. Rasy i barwy zostają przy
+        graczach, przesuwa się tylko to, kto gdzie siedzi.</p>
+      <div class="btnrow">
+        <button id="btn-first-seat">Wskaż na mapie gniazdo gracza 1</button>
+      </div>
+      <label class="row"><span>gniazdo gracza 1</span>
+        <select id="first-seat"></select></label>
+      <div class="orderdir"><span>kierunek numerowania</span>
+        <div class="chips" id="seat-direction"></div></div>
+      <p id="order-info" class="hint"></p>
+
+      <h2>Gracze i rasy</h2>
+      <p class="hint">Przy każdym graczu wybierasz rasę i barwę jego systemu domowego. Dopóki barwa
+        nie jest wybrana, dom na mapie jest szary. Pole <strong>nr</strong> zamienia gracza miejscami
+        z graczem o wybranym numerze – razem z rasą i barwą.</p>
+      <div id="players"></div>
+      <p id="colors-status" class="hint"></p>
+
+      <h2>Zdolności ras a mapa</h2>
+      <p class="hint">Niektóre rasy mają zdolności działające tylko przy określonym typie kafla
+        (np. Muaat wlatują w supernowe). Po włączeniu tej opcji generator dba, żeby taki kafel
+        rzeczywiście trafił na mapę – w zasięgu podanej liczby kafli od domu danego gracza.</p>
+      <label class="row switch"><input type="checkbox" id="affinity-enabled">
+        <span>uwzględniaj zdolności ras przy losowaniu</span></label>
+      <label class="row"><span>maks. dystans od domu (w kaflach)</span>
+        <input id="affinity-distance" type="number" min="1" max="4" value="2"></label>
+      <div id="affinity-list" class="affinity"></div>
+
+      <h2>Wyczyść</h2>
+      <p class="hint">Kasuje wszystko, co ustawiono w tej zakładce: liczbę graczy wraca do 4,
+        zdejmuje wybrane rasy i barwy, sadza gracza 1 w pierwszym gnieździe układu, przywraca
+        numerowanie zgodnie z zegarem i wyłącza uwzględnianie zdolności ras. Reszta ustawień
+        (dodatki, typ mapy, wagi, kafle) zostaje bez zmian.</p>
+      <div class="btnrow">
+        <button id="btn-clear-players">Wyczyść zakładkę „Gracze”</button>
+      </div>
+    </section>
+
+    <section class="tab hidden" data-tab="rules">
+      <h2>Zasady rozkładania</h2>
+      <div id="rules" class="checklist"></div>
+      <h2>Ściąga z zasad</h2>
+      <div id="rules-digest" class="digest"></div>
+    </section>
+
+    <section class="tab hidden" data-tab="tiles">
+      <h2>Kafle w losowaniu</h2>
+      <p class="hint">Odznacz kafel, żeby wykluczyć go z puli. Sekcja „kafle specjalne” zawiera
+        kafle, które normalnie nie biorą udziału w losowaniu – możesz je świadomie dorzucić.
+        Przycisk <strong>Podgląd</strong> pokazuje grafikę kafla i jego planety w panelu po prawej
+        – działa też dla kafli, których nie ma na aktualnej mapie.</p>
+      <div class="tile-toolbar">
+        <input id="tile-search" type="search" placeholder="szukaj: nazwa kafla, planety, cecha…" autocomplete="off">
+        <button id="tile-search-clear" title="Wyczyść wyszukiwanie">✕</button>
+        <button id="tiles-all">wszystkie</button>
+        <button id="tiles-none">żaden</button>
+      </div>
+      <div id="tile-groups"></div>
+    </section>
+
+    <section class="tab hidden" data-tab="save">
+      <h2>Zapis mapy do pliku tekstowego</h2>
+      <p class="hint">Zapis to zwykły plik tekstowy – można go obejrzeć w notatniku, wysłać
+        na czacie albo wkleić z powrotem tutaj, żeby odtworzyć dokładnie tę samą mapę.</p>
+      <div class="btnrow">
+        <button id="btn-save-file" class="primary">Zapisz plik .txt</button>
+        <button id="btn-save-show">Pokaż zapis w polu</button>
+        <button id="btn-copy-text">Kopiuj do schowka</button>
+      </div>
+      <h2>Wczytanie mapy</h2>
+      <p class="hint">Wklej zapis mapy albo sam „map string” (ciąg numerów kafli od pozycji 101).
+        Jeżeli wkleisz gotowy szablon planszy – np. własny układ z hiperpasami – generator
+        potraktuje puste pola (<code>0</code> lub <code>-1</code>) jako miejsca do wylosowania.</p>
+      <textarea id="save-text" rows="16" spellcheck="false" placeholder="Tu wklej zapis mapy lub map string…"></textarea>
+      <div class="btnrow">
+        <button id="btn-load-text" class="primary">Wczytaj z pola</button>
+        <button id="btn-load-file">Wczytaj z pliku…</button>
+        <input id="file-input" type="file" accept=".txt,.map,text/plain" hidden>
+      </div>
+      <p id="save-status" class="hint"></p>
+    </section>
+  </aside>
+
+  <section id="stage">
+    <div id="map-toolbar">
+      <button class="panel-toggle" id="toggle-left" title="Zwiń panel opcji (Alt+1)">◀ Opcje</button>
+      <span class="spacer"></span>
+      <button class="panel-toggle" id="toggle-report" title="Pokaż podsumowanie mapy (Alt+3)">Podsumowanie ▲</button>
+      <button id="btn-mapstring" title="Kopiuje ciąg numerów kafli – format używany przez społeczność TI4 i Tabletop Simulator">map string</button>
+      <button id="btn-export" title="Zapisuje mapę do pliku tekstowego">zapisz .txt</button>
+      <button class="panel-toggle" id="toggle-right" title="Zwiń panel szczegółów (Alt+2)">Szczegóły ▶</button>
+    </div>
+
+    <!-- Pasek widoku – pod paskiem z Opcjami/Podsumowaniem/Szczegółami, wszystko poziomo. -->
+    <div id="viewbar">
+      <span class="viewbar-label">Na mapie</span>
+      <div id="view-options"></div>
+    </div>
+    <div id="map-wrap">
+      <svg id="map" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+
+    <!-- Podsumowanie nie zabiera już miejsca mapie: wysuwa się nad nią i chowa przyciskiem. -->
+    <div id="report-drawer" class="closed" aria-hidden="true">
+      <div id="report-head">
+        <strong>Podsumowanie mapy</strong>
+        <span id="report-brief" class="hint"></span>
+        <button id="report-close" title="Zamknij podsumowanie (Esc)">✕ zamknij</button>
+      </div>
+      <div id="report"></div>
+    </div>
+  </section>
+
+  <section id="library"></section>
+
+  <!-- Prawy panel: przegląd/szczegóły i legenda obok siebie. Każda kolumna przewija się
+       osobno, więc legenda nie wydłuża panelu w dół. -->
+  <aside id="inspector">
+    <div id="inspector-body"><p class="hint">Kliknij kafel na mapie, aby zobaczyć szczegóły systemu.</p></div>
+    <section id="legend" aria-label="Legenda symboli na mapie">
+      <div id="legend-head">
+        <strong>Legenda</strong>
+      </div>
+      <div id="legend-scroll">
+        <div id="legend-body"></div>
+      </div>
+    </section>
+  </aside>
+</main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

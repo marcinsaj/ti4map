@@ -1,0 +1,2880 @@
+[
+ {
+  "id": "0.0.0",
+  "name": "[0.0.0]",
+  "shortName": "[0.0.0]",
+  "tileId": "06",
+  "resources": 5,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "l1z1x",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*This elusive energy-rich planet was the desperate destination of the secret Lazax diaspora. Now, it is a technological nightmare.*"
+ },
+ {
+  "id": "abaddon",
+  "name": "Abaddon",
+  "shortName": "Abaddon",
+  "tileId": "75",
+  "resources": 1,
+  "influence": 0,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*A temperate planet whose low gravity allows for stunningly tall mountain ranges. Serves as a stop-over for trade routes to the nearby Vorish Cluster.*"
+ },
+ {
+  "id": "abyz",
+  "name": "Abyz",
+  "shortName": "Abyz",
+  "tileId": "38",
+  "resources": 3,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Its thick, complex atmosphere is inhospitable to most races, but Abyz is known for its seemingly endless natural reserves of rare minerals and precious metals.*"
+ },
+ {
+  "id": "accoen",
+  "name": "Accoen",
+  "shortName": "Accoen",
+  "tileId": "69",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Populace lives on continent sized fungal rafts that float atop a soupy, world-spanning ocean of useful bio-compounds. Popular research site for biologists.*"
+ },
+ {
+  "id": "acheron",
+  "name": "Acheron",
+  "shortName": "Acheron",
+  "tileId": "54",
+  "resources": 4,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "cabal",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Once a dusty, dead world concealing a portal to Ixth. Now, a gravity rift has shattered the world, creating a labyrinth of strange energies and tumbling shards of rock.*"
+ },
+ {
+  "id": "ahkcreuxx",
+  "name": "Ahk Creuxx",
+  "shortName": "Ahk Creuxx",
+  "tileId": "118",
+  "resources": 4,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "crimson",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "alioprima",
+  "name": "Alio Prima",
+  "shortName": "Alio Prima",
+  "tileId": "71",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Wet planet covered in rivers, lakes and small seas but no oceans. Dry poles provide haven from constant floods. Numerous farms famous for luxury foodstuffs.*"
+ },
+ {
+  "id": "andeara",
+  "name": "Andeara",
+  "shortName": "Andeara",
+  "tileId": "102",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "PROPULSION"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "ang",
+  "name": "Ang",
+  "shortName": "Ang",
+  "tileId": "61",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "WARFARE"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*High rotational speed creates extremely energized magnetosphere. Orbital taps use this to energize starship fuels and power labs developing new beam weapons.*"
+ },
+ {
+  "id": "archonren",
+  "name": "Archon Ren",
+  "shortName": "Archon Ren",
+  "tileId": "14",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "xxcha",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Populated by small arboreal villages, this planet's only true urban center is the royal city of Kklaj.*"
+ },
+ {
+  "id": "archonrenk",
+  "name": "Archon Ren Keleres",
+  "shortName": "Archon Ren",
+  "tileId": "92new",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "keleresx",
+  "source": "codex3",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "archontau",
+  "name": "Archon Tau",
+  "shortName": "Archon Tau",
+  "tileId": "14",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "xxcha",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*The Xxcha home world and home to the renowned library of Xuun.*"
+ },
+ {
+  "id": "archontauk",
+  "name": "Archon Tau Keleres",
+  "shortName": "Archon Tau",
+  "tileId": "92new",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "keleresx",
+  "source": "codex3",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "archonvail",
+  "name": "Archon Vail",
+  "shortName": "Archon Vail",
+  "tileId": "59",
+  "resources": 1,
+  "influence": 3,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [
+   "PROPULSION"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*A former Xxcha colony, its extremely low temperatures create exotic molecular compounds that give the world its famed violet hue. Orbital facilities use the compounds in high-energy stardrive research.*"
+ },
+ {
+  "id": "arcprime",
+  "name": "Arc Prime",
+  "shortName": "Arc Prime",
+  "tileId": "10",
+  "resources": 4,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "letnev",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Below the thin surface of atmosphere lie the continent-sized caverns of the Letnev. Rich in metals and energy, its vast fungus fields struggle to feed its population.*"
+ },
+ {
+  "id": "arcturus",
+  "name": "Arcturus",
+  "shortName": "Arcturus",
+  "tileId": "53",
+  "resources": 4,
+  "influence": 4,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "nomad",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Cold and still, with a surface buried beneath kilometers of ice. A few smuggler bases dot the surface, but Sumerian Station circles the planet, making it a vital trading destination.*"
+ },
+ {
+  "id": "arinam",
+  "name": "Arinam",
+  "shortName": "Arinam",
+  "tileId": "37",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Isolated planet poor in resources but rich in natural beauty. Boasts many exotic resorts frequented by the rich and famous of the galaxy.*"
+ },
+ {
+  "id": "arnor",
+  "name": "Arnor",
+  "shortName": "Arnor",
+  "tileId": "36",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Lush, green world that is renowned for some of the most fertile soil in the galaxy. Dominated by endless fields and the processing facilities of large agricultural firms.*"
+ },
+ {
+  "id": "arretze",
+  "name": "Arretze",
+  "shortName": "Arretze",
+  "tileId": "16",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "hacan",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Also called the \"Moving Sand.\" The desert home of the Hacan Mowshir trade families and the great orbital trading ports of Haal, Shimax, and Dry Wind.*"
+ },
+ {
+  "id": "ashtroth",
+  "name": "Ashtroth",
+  "shortName": "Ashtroth",
+  "tileId": "75",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Covered in boggy landmasses and shallow seas. Algal blooms provide rich biomass for processed foods, but create smelly (and often toxic) offgassing.*"
+ },
+ {
+  "id": "atlas",
+  "name": "Atlas",
+  "shortName": "Atlas",
+  "tileId": "64",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Heavy grav world and former Sol colony famed for squat, strong inhabitants and strategic location. Visitors need support exoskeletons to move on the surface.*"
+ },
+ {
+  "id": "avar",
+  "name": "Avar",
+  "shortName": "Avar",
+  "tileId": "58",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "argent",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Lighter than its companion worlds, Avar is riddled with caverns. The majority of the Atharal Torus lives in the bustling aeries within, sheltered from the radiation bursts emanating from nearby Phorus.*"
+ },
+ {
+  "id": "avark",
+  "name": "Avar Keleres",
+  "shortName": "Avar",
+  "tileId": "93new",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "keleresa",
+  "source": "codex3",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "avernus",
+  "name": "Avernus",
+  "shortName": "Avernus",
+  "tileId": null,
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "The Nucleus",
+   "text": "ACTION: Exhaust this card to use the Embers of Muaat's **STAR FORGE** faction ability without spending a command token."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "bakal",
+  "name": "Bakal",
+  "shortName": "Bakal",
+  "tileId": "71",
+  "resources": 3,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": null
+ },
+ {
+  "id": "bellatrix",
+  "name": "Bellatrix",
+  "shortName": "Bellatrix",
+  "tileId": "109",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "bereg",
+  "name": "Bereg",
+  "shortName": "Bereg",
+  "tileId": "35",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*A frozen world that is inhospitable to most races. Indentured laborers risk attacks from arctic sharaks in the infamous Iodinium mines.*"
+ },
+ {
+  "id": "capha",
+  "name": "Capha",
+  "shortName": "Capha",
+  "tileId": "108",
+  "resources": 3,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "cealdri",
+  "name": "Cealdri",
+  "shortName": "Cealdri",
+  "tileId": "73",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [
+   "CYBERNETIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Small cities huddle on the shores of the single ocean and avoid the arid continental interiors. Mentak ships hunt departing vessels carrying bespoke cybernetics.*"
+ },
+ {
+  "id": "centauri",
+  "name": "Centauri",
+  "shortName": "Centauri",
+  "tileId": "34",
+  "resources": 1,
+  "influence": 3,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Venerable world with few resources but a rich history. Site of important treaties between several races during the Twilight Wars.*"
+ },
+ {
+  "id": "cocytus",
+  "name": "Cocytus",
+  "shortName": "Cocytus",
+  "tileId": "fracture1",
+  "resources": 3,
+  "influence": 0,
+  "types": [
+   "LIGHTNING"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "cormund",
+  "name": "Cormund",
+  "shortName": "Cormund",
+  "tileId": "67",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*A remote and sparsely settled Naaz-Rokha world destroyed during early entropic field tests. Now mining corporations harvest metals from the shattered core.*"
+ },
+ {
+  "id": "corneeq",
+  "name": "Corneeq",
+  "shortName": "Corneeq",
+  "tileId": "33",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": null
+ },
+ {
+  "id": "cresius",
+  "name": "Cresius",
+  "shortName": "Cresius",
+  "tileId": "106",
+  "resources": 0,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "creuss",
+  "name": "Creuss",
+  "shortName": "Creuss",
+  "tileId": "51",
+  "resources": 4,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "ghost",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Trapped between matter and void lies the realm of the Creuss. Made of trapped light and radioactive gas, this realm hosts the most peculiar forms of life.*"
+ },
+ {
+  "id": "cronos",
+  "name": "Cronos",
+  "shortName": "Cronos",
+  "tileId": "96a",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "firmament",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "cronoshollow",
+  "name": "Cronos Hollow",
+  "shortName": "Cronos H.",
+  "tileId": "96b",
+  "resources": 3,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "obsidian",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "custodiavigilia",
+  "name": "Custodia Vigilia",
+  "shortName": "Cust. Vigilia",
+  "tileId": null,
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Custodian's Favour",
+   "text": "While you control Mecatol Rex, it gains SPACE CANNON 5 and PRODUCTION 3.\nGain 2 command tokens when another player scores a victory point with the second clause of the 'Imperial' strategy card."
+  },
+  "factionHomeworld": null,
+  "source": "codex3",
+  "expansion": "codex",
+  "flavour": "*Custodia Vigilia. The fully realized seat of the Keleres. A veritable fortress in the heart of Mecatol City. Ten thousand people come and go daily, and the Keleres see them all.*"
+ },
+ {
+  "id": "custodiavigiliaplus",
+  "name": "Custodia Vigilia (Plus)",
+  "shortName": "Cust. Vigilia",
+  "tileId": null,
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Custodian's Favour",
+   "text": "While you control Mecatol Rex, it gains SPACE CANNON 5 and PRODUCTION 3.\nGain 2 command tokens when another player scores a victory point with the second clause of the 'Imperial' strategy card."
+  },
+  "factionHomeworld": null,
+  "source": "keleresplus",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "dalbootha",
+  "name": "Dal Bootha",
+  "shortName": "Dal Bootha",
+  "tileId": "32",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*A populous planet whose resources have been severely depleted. Well-educated citizenry and many universities, but dependent on foreign imports.*"
+ },
+ {
+  "id": "darien",
+  "name": "Darien",
+  "shortName": "Darien",
+  "tileId": "03",
+  "resources": 4,
+  "influence": 4,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "yin",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Ravaged by Sol and Letnev bombardments during the Twilight Wars. The Xxcha commit substantial resources to rebuilding its ecology and cleansing its toxic continents.*"
+ },
+ {
+  "id": "druaa",
+  "name": "Druaa",
+  "shortName": "Druaa",
+  "tileId": "09",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "naalu",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Despite its oversized poles, Druaa is one of the most beautiful planets. Its flowered steppes, violet mountains, and glowing forests are famous across the galaxy.*"
+ },
+ {
+  "id": "elnath",
+  "name": "El'Nath",
+  "shortName": "El'Nath",
+  "tileId": "110",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "elysium",
+  "name": "Elysium",
+  "shortName": "Elysium",
+  "tileId": "55",
+  "resources": 4,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "titans",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Larger than a thousand terrestrial planets, Elysium is an artificial shell-world built around the powerful singularity in its hollow heart. Its surface is covered in calm seas and cultivated plants.*"
+ },
+ {
+  "id": "emelpar",
+  "name": "Emelpar",
+  "shortName": "Emelpar",
+  "tileId": "99",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "The Acropolis",
+   "text": "You may exhaust this card at the end of your turn to ready another component that isn't a strategy card."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "everra",
+  "name": "Everra",
+  "shortName": "Everra",
+  "tileId": "68",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Ancient world of red seas and bare rocks. Locals live in wondrous nano-carbon cities built by a mysterious ancient race, and mine nearby nebulae for rare gases.*"
+ },
+ {
+  "id": "faunus",
+  "name": "Faunus",
+  "shortName": "Faunus",
+  "tileId": "97",
+  "resources": 1,
+  "influence": 3,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "BIOTIC"
+  ],
+  "legendary": {
+   "name": "Maxis Central Control",
+   "text": "You may exhaust this card when you pass to gain control of a non-home, non-legendary planet that contains no units and has no attachments."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "fria",
+  "name": "Fria",
+  "shortName": "Fria",
+  "tileId": "38",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Brutally cold ice world populated only by a few scattered mining camps. Despite brutal climate, highly prized for its deposits of rare ores used in starship drives.*"
+ },
+ {
+  "id": "garbozia",
+  "name": "Garbozia",
+  "shortName": "Garbozia",
+  "tileId": "98",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Dok 'N Pic's Salvage Yard",
+   "text": "You may exhaust this card when you pass to place 1 action card from the discard pile faceup on this card; you can purge cards on this card to play them as if they were in your hand."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "gral",
+  "name": "Gral",
+  "shortName": "Gral",
+  "tileId": "34",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "PROPULSION"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Backwater planet with modest resources and an unassuming populace. Most noted for the reliable and affordable vehicles produced in its factories.*"
+ },
+ {
+  "id": "hercalor",
+  "name": "Hercalor",
+  "shortName": "Hercalor",
+  "tileId": "107",
+  "resources": 1,
+  "influence": 0,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "hercant",
+  "name": "Hercant",
+  "shortName": "Hercant",
+  "tileId": "16",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "hacan",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Also called the \"Fire Sand.\" Seat of the Quieron, the Hacan council, and the Sword Fleet. Harbors the greatest of the famous Hacan moving cities.*"
+ },
+ {
+  "id": "hopesend",
+  "name": "Hope's End",
+  "shortName": "Hope's End",
+  "tileId": "66",
+  "resources": 3,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Imperial Arms Vault",
+   "text": "You may exhaust this card at the end of your turn to place 1 mech from your reinforcements on any planet you control or draw 1 action card"
+  },
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Buried in the Ichal Nebula. The Lazax used the toxic wildlife and fierce aurora storms to train their troops. Even now, volatile weapon caches remain hidden beneath its sands.*"
+ },
+ {
+  "id": "horizon",
+  "name": "Horizon",
+  "shortName": "Horizon",
+  "tileId": "110",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "ikatena",
+  "name": "Ikatena",
+  "shortName": "Ikatena",
+  "tileId": "95",
+  "resources": 4,
+  "influence": 4,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "deepwrought",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "illusion",
+  "name": "Illusion",
+  "shortName": "Illusion",
+  "tileId": null,
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Illusion Flight Academy",
+   "text": "You may exhaust this card at the end of your turn to place up to 2 fighters from your reinforcements in any system that contains 1 or more of your ships"
+  },
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Exists on no known charts and appears deserted to those who stumble across it. However, secretive locals live in cloaked cities heavily defended by swarms of starfighters.*"
+ },
+ {
+  "id": "industrex",
+  "name": "Industrex",
+  "shortName": "Industrex",
+  "tileId": "115",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "WARFARE"
+  ],
+  "legendary": {
+   "name": "Aurex Mechanica",
+   "text": "You may exhaust this card when you pass to place 1 ship that matches a unit upgrade technology you own from your reinforcements into a system that contains your ships."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "ixth",
+  "name": "Ixth",
+  "shortName": "Ixth",
+  "tileId": "52",
+  "resources": 3,
+  "influence": 5,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "mahact",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*A dry, dead world of black volcanic mountains and molten seas of lava. The great necropolis of Aior Dol Gorgos on the Plateau Imperia is the only evidence of civilization.*"
+ },
+ {
+  "id": "jeolir",
+  "name": "Jeol Ir",
+  "shortName": "Jeol Ir",
+  "tileId": "69",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Heavily industrialized world. Pollution has killed all life outside of dome cities, but twin suns provide constant power for factories and huge populace.*"
+ },
+ {
+  "id": "jol",
+  "name": "Jol",
+  "shortName": "Jol",
+  "tileId": "12",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "jolnar",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Covered by cold oceans and a few inhospitable islands. The seat of the Headmaster, the Hylar ruler, dwells in the deep underwater city of Wun-Escha.*"
+ },
+ {
+  "id": "jord",
+  "name": "Jord",
+  "shortName": "Jord",
+  "tileId": "01",
+  "resources": 4,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "sol",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Distinctly seasonal, with the greatest variety of climates and ecologies in the galaxy. The Federation of Sol rules the Jord humans from the great city of New Moscow.*"
+ },
+ {
+  "id": "kamdorn",
+  "name": "Kamdorn",
+  "shortName": "Kamdorn",
+  "tileId": "16",
+  "resources": 0,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "hacan",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Also called the \"Dream Sand.\" The least populated of the Hacan planets, but the center of Hacan mythology and religion. The only known source of starflowers.*"
+ },
+ {
+  "id": "kostboth",
+  "name": "Kostboth",
+  "shortName": "Kostboth",
+  "tileId": "108",
+  "resources": 0,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "kraag",
+  "name": "Kraag",
+  "shortName": "Kraag",
+  "tileId": "70",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*A heavily irradiated world known only for its dust mines. Recently a massive \"tomb\" of dormant Titans was discovered in the southern hemisphere.*"
+ },
+ {
+  "id": "lazar",
+  "name": "Lazar",
+  "shortName": "Lazar",
+  "tileId": "31",
+  "resources": 1,
+  "influence": 0,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "CYBERNETIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*The only inhabited world in a forgettable system. Few native resources and only rudimentary, often underdeveloped, industries.*"
+ },
+ {
+  "id": "lazulrex",
+  "name": "Lazul Rex",
+  "shortName": "Lazul Rex",
+  "tileId": "106",
+  "resources": 2,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL",
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "lemox",
+  "name": "Lemox",
+  "shortName": "Lemox",
+  "tileId": "116",
+  "resources": 0,
+  "influence": 3,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "lesab",
+  "name": "Lesab",
+  "shortName": "Lesab",
+  "tileId": "104",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL",
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "lethe",
+  "name": "Lethe",
+  "shortName": "Lethe",
+  "tileId": "fracture7",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "LIGHTNING"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "lirtaiv",
+  "name": "Lirta IV",
+  "shortName": "Lirta IV",
+  "tileId": "35",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Covered in vast swamps and fetid bogs. Home to rare biochemical compounds unique to its marshlands used in everything from exotic foods to biogenic drugs.*"
+ },
+ {
+  "id": "lisis",
+  "name": "Lisis",
+  "shortName": "Lisis",
+  "tileId": "72",
+  "resources": 2,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Primordial world with primitive native life. Potential for terraforming led to the infamous genocide of Saar settlements by Sardakk N'orr and ongoing conflicts between them and Naalu forces.*"
+ },
+ {
+  "id": "lisisii",
+  "name": "Lisis II",
+  "shortName": "Lisis II",
+  "tileId": "11",
+  "resources": 1,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "saar",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*The crystal caverns of Lisis II are the source of most of the Jorun colonists' water and foodstuffs. Notable for the great crescent-shaped valley of Gavar.*"
+ },
+ {
+  "id": "lockedmallice",
+  "name": "Locked Mallice",
+  "shortName": "Locked Mallice",
+  "tileId": "82a",
+  "resources": 0,
+  "influence": 3,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Exterrix Headquarters",
+   "text": "You may exhaust this card at the end of your turn to gain 2 trade goods or convert all of your commodities to trade goods."
+  },
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": null
+ },
+ {
+  "id": "lodor",
+  "name": "Lodor",
+  "shortName": "Lodor",
+  "tileId": "26",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Wealthy planet ruled by powerful biotech consortiums. Rumored to harbor hidden caches of outlawed bacterial weapons.*"
+ },
+ {
+  "id": "loki",
+  "name": "Loki",
+  "shortName": "Loki",
+  "tileId": "75",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Cold and wracked with violent storms, Loki still hosts several Yssaril and human colonies, some of which have engaged in escalating shadow-conflicts.*"
+ },
+ {
+  "id": "lor",
+  "name": "Lor",
+  "shortName": "Lor",
+  "tileId": "36",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Wreathed in vast seas of methane ice. Sea floor drilling platforms harvest rare crystals used in advance computers and energy weapons.*"
+ },
+ {
+  "id": "loststation",
+  "name": "Lost Station",
+  "shortName": "Lost Station",
+  "tileId": null,
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "SPACESTATION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": null
+ },
+ {
+  "id": "luthieniv",
+  "name": "Luthien VI",
+  "shortName": "Luthien VI",
+  "tileId": "110",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "maaluuk",
+  "name": "Maaluuk",
+  "shortName": "Maaluuk",
+  "tileId": "09",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "naalu",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Mostly pungent marshland and mudplains. Original world of the Naalu race, which now enslaves winged Miashan to work its great iron-extraction plants.*"
+ },
+ {
+  "id": "mallice",
+  "name": "Mallice",
+  "shortName": "Mallice",
+  "tileId": "82b",
+  "resources": 0,
+  "influence": 3,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Exterrix Headquarters",
+   "text": "You may exhaust this card at the end of your turn to gain 2 trade goods or convert all of your commodities to trade goods."
+  },
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Trapped in a space believed to be beyond our universe, a shimmering world of strange energies and disconcerting warping of physical laws sitting at the heart of a strategically vital wormhole nexus.*"
+ },
+ {
+  "id": "meer",
+  "name": "Meer",
+  "shortName": "Meer",
+  "tileId": "37",
+  "resources": 0,
+  "influence": 4,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [
+   "WARFARE"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Hellish world immolated in the inferno of its nearby sun. Famed for the fiery majesty of its surface when viewed from the safety of its many orbital stations.*"
+ },
+ {
+  "id": "meharxull",
+  "name": "Mehar Xull",
+  "shortName": "Mehar Xull",
+  "tileId": "24",
+  "resources": 1,
+  "influence": 3,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [
+   "WARFARE"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Unstable radiation belts create hazardous living conditions but facilitate research in the electro-quantum propulsion technologies.*"
+ },
+ {
+  "id": "mellon",
+  "name": "Mellon",
+  "shortName": "Mellon",
+  "tileId": "30",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Poor in natural resources but rich in exotic plant and animal life. Protected as a planetary xenological garden and lifeform preserve.*"
+ },
+ {
+  "id": "mez",
+  "name": "Mez Lo Orz Fei Zsha",
+  "shortName": "Mez Lo",
+  "tileId": "93",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "ralnel",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "mirage",
+  "name": "Mirage",
+  "shortName": "Mirage",
+  "tileId": null,
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Mirage Flight Academy",
+   "text": "You may exhaust this card at the end of your turn to place up to 2 fighters from your reinforcements in any system that contains 1 or more of your ships"
+  },
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Exists on no known charts and appears deserted to those who stumble across it. However, secretive locals live in cloaked cities heavily defended by swarms of starfighters.*"
+ },
+ {
+  "id": "mollprimus",
+  "name": "Moll Primus",
+  "shortName": "Moll Primus",
+  "tileId": "02",
+  "resources": 4,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "mentak",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*In places lush and rich, in others a barren wasteland. This old Lazax penal colony has prospered under the rule of the governing Mentak Coalition.*"
+ },
+ {
+  "id": "mollprimusk",
+  "name": "Moll Primus Keleres",
+  "shortName": "Moll Primus",
+  "tileId": "94new",
+  "resources": 4,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "keleresm",
+  "source": "codex3",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "mordaiii",
+  "name": "Mordai II",
+  "shortName": "Mordai II",
+  "tileId": "08",
+  "resources": 4,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "nekro",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Mined to its bones by the virulent Nekro, Mordai II is reinforced by graviton energy beams that barely keep the world from collapsing in on itself.*"
+ },
+ {
+  "id": "mr",
+  "name": "Mecatol Rex",
+  "shortName": "Mecatol Rex",
+  "tileId": "18",
+  "resources": 1,
+  "influence": 6,
+  "types": [
+   "MR"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Once a splendid place, now a sad devastated wasteland. Only the radiation-shielded Mecatol city, the seat of the powerful Galactic Council, remains habitable.*"
+ },
+ {
+  "id": "mrte",
+  "name": "Mecatol Rex",
+  "shortName": "Mecatol Rex",
+  "tileId": "112",
+  "resources": 1,
+  "influence": 6,
+  "types": [
+   "MR"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "The Galactic Council",
+   "text": "You may exhaust this card at the end of your turn and discard 1 secret objective to draw 1 secret objective."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": "*Once a splendid place, now a sad devastated wasteland. Only the radiation-shielded Mecatol city, the seat of the powerful Galactic Council, remains habitable.*"
+ },
+ {
+  "id": "muaat",
+  "name": "Muaat",
+  "shortName": "Muaat",
+  "tileId": "04",
+  "resources": 4,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "muaat",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*The fiery surface of Muaat is uninhabitable to most races. It is home to the Gashlai, and only here can they live outside of their cumbersome ember suits.*"
+ },
+ {
+  "id": "naazir",
+  "name": "Naazir",
+  "shortName": "Naazir",
+  "tileId": "57",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "naaz",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*A small planet of high mountains and deep, narrow seas. Cities and vertical farms burrow into cliff faces, while orbital factories produce high-tech consumer goods.*"
+ },
+ {
+  "id": "nar",
+  "name": "Nar",
+  "shortName": "Nar",
+  "tileId": "12",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "jolnar",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Covered by mild oceans and a small archipelago called The Reef by off-worlders. The Circle of Regents makes its home in the underwater city-school of Nuun-Dascha.*"
+ },
+ {
+  "id": "nestphar",
+  "name": "Nestphar",
+  "shortName": "Nestphar",
+  "tileId": "05",
+  "resources": 3,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "arborec",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*The fungal world of Nestphar is home to the symbiotic Arborec. Nestphar's orbit is filled with Flaah spores that extend its Symphony.*"
+ },
+ {
+  "id": "neutera",
+  "name": "New Terra",
+  "shortName": "New Terra",
+  "tileId": "105",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "BIOTIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "nevermore",
+  "name": "Nevermore",
+  "shortName": "Nevermore",
+  "tileId": null,
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "NONE"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Consortium's Resolve",
+   "text": "When another player activates a system adjacent to Mecatol Rex, gain 1 trade good.\nGain 2 command tokens when another player draws a secret objective with the second clause of the 'Imperial' strategy card."
+  },
+  "factionHomeworld": null,
+  "source": "keleresplus",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "newalbion",
+  "name": "New Albion",
+  "shortName": "New Albion",
+  "tileId": "27",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "BIOTIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Rare atmospheric composition and biochemistry support lifeforms unlike any others in the galaxy.*"
+ },
+ {
+  "id": "ocean1",
+  "name": "Coral Reef",
+  "shortName": "Coral Reef",
+  "tileId": null,
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FAKE",
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": "Coral-analogues have evolved on many worlds, and their \"reefs\" are always areas of intense biodiversity."
+ },
+ {
+  "id": "ocean2",
+  "name": "Lost Fleet",
+  "shortName": "Lost Fleet",
+  "tileId": null,
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FAKE",
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": "Although usually badly degraded by water and time, shipwrecks remain fascinating areas of exploration and study whether those ships sailed sea or stars."
+ },
+ {
+  "id": "ocean3",
+  "name": "Deep Abyss",
+  "shortName": "Deep Abyss",
+  "tileId": null,
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FAKE",
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": "The Abyssal zone features such dramatic pressure that even most Hylar need assistance to survive in the lightless depths."
+ },
+ {
+  "id": "ocean4",
+  "name": "Brine Pool",
+  "shortName": "Brine Pool",
+  "tileId": null,
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FAKE",
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": "Sites with unique oceanic chemistry are of obvious interest to Deepwrought researchers."
+ },
+ {
+  "id": "ocean5",
+  "name": "Ice Shelf",
+  "shortName": "Ice Shelf",
+  "tileId": null,
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "FAKE",
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": "Drylanders frequently discount the scientific opportunities to be found beneath their own polar ice sheets."
+ },
+ {
+  "id": "olergodt",
+  "name": "Olergodt",
+  "shortName": "Olergodt",
+  "tileId": "101",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS",
+   "CULTURAL"
+  ],
+  "tech": [
+   "WARFARE",
+   "CYBERNETIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "oluzstation",
+  "name": "Oluz Station",
+  "shortName": "Oluz Station",
+  "tileId": "111",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "SPACESTATION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "ordinian",
+  "name": "Ordinian",
+  "shortName": "Ordinian",
+  "tileId": "92",
+  "resources": 0,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "4X41D \"Hyperion\" V1",
+   "text": "You may exhaust this card when you pass to draw 1 action card and gain 1 command token."
+  },
+  "factionHomeworld": "bastion",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "ordinianc4",
+  "name": "Ordinian Rex",
+  "shortName": "Ordinian Rex",
+  "tileId": "c41",
+  "resources": 0,
+  "influence": 0,
+  "types": [
+   "MR"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Barren Husk",
+   "text": "You may exhaust this card when you pass to draw 1 action card and gain 1 command token"
+  },
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "The Nekro Virus did something here once. Idk nobody cares about flavor text."
+ },
+ {
+  "id": "perimeter",
+  "name": "Perimeter",
+  "shortName": "Perimeter",
+  "tileId": "60",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Former garrison world with fond memories of the Lazax. Maintains formidable military with informal ties to the Winnu. Perpendicular rings make orbital navigation difficult.*"
+ },
+ {
+  "id": "phantasm",
+  "name": "Phantasm",
+  "shortName": "Phantasm",
+  "tileId": null,
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Phantasm Flight Academy",
+   "text": "You may exhaust this card at the end of your turn to place up to 2 fighters from your reinforcements in any system that contains 1 or more of your ships"
+  },
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Exists on no known charts and appears deserted to those who stumble across it. However, secretive locals live in cloaked cities heavily defended by swarms of starfighters.*"
+ },
+ {
+  "id": "phlegethon",
+  "name": "Phlegethon",
+  "shortName": "Phlegethon",
+  "tileId": "fracture7",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "LIGHTNING"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "primor",
+  "name": "Primor",
+  "shortName": "Primor",
+  "tileId": "65",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "The Atrament",
+   "text": "You may exhaust this card at the end of your turn to place up to 2 infantry from your reinforcements on any planet you control"
+  },
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Large temperate world. Site of several pitched battles during the Twilight Wars due to valuable osmium deposits and a well- educated populace.*"
+ },
+ {
+  "id": "quann",
+  "name": "Quann",
+  "shortName": "Quann",
+  "tileId": "25",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Since the discovery of the Alpha Wormhole, this temperate planet with two continents and one large ocean has been a haven for traders and smugglers alike.*"
+ },
+ {
+  "id": "qucenn",
+  "name": "Qucen'n",
+  "shortName": "Qucen'n",
+  "tileId": "29",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*After the Twilight Wars, existed for centuries as a near-utopia of scattered communal farms free from governmental interference.*"
+ },
+ {
+  "id": "quinarra",
+  "name": "Quinarra",
+  "shortName": "Quinarra",
+  "tileId": "13",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "sardakk",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Enormous and oceanless. Not only the largest planet supporting sentient life, but also the one with the least moisture. Home to the Sardakk N'orr hive-cities.*"
+ },
+ {
+  "id": "ragh",
+  "name": "Ragh",
+  "shortName": "Ragh",
+  "tileId": "11",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "saar",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*The capital colony of the Saar and the epicenter of the Saar religion. Also called \"Ragh's Call\" by the Saar.*"
+ },
+ {
+  "id": "rarron",
+  "name": "Rarron",
+  "shortName": "Rarron",
+  "tileId": "29",
+  "resources": 0,
+  "influence": 3,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Large, populous world with three distinctive moons renowned for its biomodification clinics and cyber boutiques.*"
+ },
+ {
+  "id": "rep",
+  "name": "Rep Lo Orz Qet",
+  "shortName": "Rep Lo",
+  "tileId": "93",
+  "resources": 1,
+  "influence": 3,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "ralnel",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "resculon",
+  "name": "Resculon",
+  "shortName": "Resculon",
+  "tileId": "33",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Poor in natural resources, but a nearby nexus of major trade routes has brought it increasing wealth as interstellar commerce has intensified.*"
+ },
+ {
+  "id": "retillion",
+  "name": "Retillion",
+  "shortName": "Retillion",
+  "tileId": "15",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "yssaril",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*A mix of tundra, swamps, rivers, and dense forests. Home to the mysterious, chameleonic Yssaril, whose capital Wueca has eluded all attempts at cartography.*"
+ },
+ {
+  "id": "revelation",
+  "name": "Revelation",
+  "shortName": "Revelation",
+  "tileId": "92",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "SPACESTATION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "bastion",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "rigeli",
+  "name": "Rigel I",
+  "shortName": "Rigel I",
+  "tileId": "76",
+  "resources": 0,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Hot, innermost world of the Rigel system. Cities and native life cluster inland from the heavily alkaline oceans.*"
+ },
+ {
+  "id": "rigelii",
+  "name": "Rigel II",
+  "shortName": "Rigel II",
+  "tileId": "76",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Temperate world with expansive oceans. Covered in estates and resorts for the system's elite, with extensive fisheries that feed much of the rest of the system.*"
+ },
+ {
+  "id": "rigeliii",
+  "name": "Rigel III",
+  "shortName": "Rigel III",
+  "tileId": "76",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "BIOTIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Outermost world of the Rigel system, and extensively settled despite cooler climates. Boasts a diverse range of industries and research institutions.*"
+ },
+ {
+  "id": "rokha",
+  "name": "Rokha",
+  "shortName": "Rokha",
+  "tileId": "57",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "naaz",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Terraformed by comet-drops and Alliance biotech into a cool world with alpine forests and stormy seas. The city of Dormont Vault boasts the famous Exotic Energies Institute.*"
+ },
+ {
+  "id": "sakulag",
+  "name": "Sakulag",
+  "shortName": "Sakulag",
+  "tileId": "31",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Jungle planet plagued by dangerous predators such as the arboreal razeden. Home to many exotic biochemicals and natural pharmaceuticals.*"
+ },
+ {
+  "id": "saudor",
+  "name": "Saudor",
+  "shortName": "Saudor",
+  "tileId": "23",
+  "resources": 2,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Prosperous planet with large native population and substantial industry. Extreme axial tilt results in long day-night cycle that some races find uncomfortable.*"
+ },
+ {
+  "id": "semlore",
+  "name": "Sem-Lore",
+  "shortName": "Sem-Lore",
+  "tileId": "62",
+  "resources": 3,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [
+   "CYBERNETIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Home to the Semanora, and heavily damaged in the Twilight Wars. Rustling warship hulks litter the rod-deserts, making it a war memorial and salvage site.*"
+ },
+ {
+  "id": "shalloq",
+  "name": "Shalloq",
+  "shortName": "Shalloq",
+  "tileId": "15",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "yssaril",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Covered with tundra, wetlands, and rainforest, much like its sister-planet Retillion. Home to the Mojeb, the only major Yssaril city catalogued by off-worlders.*"
+ },
+ {
+  "id": "siig",
+  "name": "Siig",
+  "shortName": "Siig",
+  "tileId": "70",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*World covered in frozen, cesium-laced oceans. Archives buried deep beneath the surface use the cold to preserve relics and operate massive computers.*"
+ },
+ {
+  "id": "starpoint",
+  "name": "Starpoint",
+  "shortName": "Starpoint",
+  "tileId": "27",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Large planet with eight small moons that supply a wide range of valuable resources. Acidic rains and toxic storms make it an unappealing destination for tourists.*"
+ },
+ {
+  "id": "styx",
+  "name": "Styx",
+  "shortName": "Styx",
+  "tileId": "fracture4",
+  "resources": 4,
+  "influence": 0,
+  "types": [
+   "LIGHTNING"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "A Song Like Marrow",
+   "text": "When you gain this card, gain 1 victory point. When you lose this card, lose 1 victory point."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tallin",
+  "name": "Tallin",
+  "shortName": "Tallin",
+  "tileId": "96a",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "firmament",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tallinhollow",
+  "name": "Tallin Hollow",
+  "shortName": "Tallin H.",
+  "tileId": "96b",
+  "resources": 3,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "obsidian",
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tarana",
+  "name": "Tarana",
+  "shortName": "Tarana",
+  "tileId": "111",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL",
+   "INDUSTRIAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tarmann",
+  "name": "Tar'mann",
+  "shortName": "Tar'mann",
+  "tileId": "22",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "BIOTIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": null
+ },
+ {
+  "id": "tempesta",
+  "name": "Tempesta",
+  "shortName": "Tempesta",
+  "tileId": "100",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [
+   "PROPULSION"
+  ],
+  "legendary": {
+   "name": "Ionian Fuel Refinery",
+   "text": "You may exhaust this card after you activate a system to apply +1 to the move value of 1 of your ships during this tactical action."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tequran",
+  "name": "Tequ'ran",
+  "shortName": "Tequ'ran",
+  "tileId": "28",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Desolate planet transformed into weapons testing facility for large defense consortiums.*"
+ },
+ {
+  "id": "thedark",
+  "name": "The Dark",
+  "shortName": "The Dark",
+  "tileId": "56",
+  "resources": 3,
+  "influence": 4,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "empyrean",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*A massive nebula dominating the skies of many core worlds. Thick clouds of dust obscure its heart, a lightless refuge where Empyrean ships have congregated for millennia.*"
+ },
+ {
+  "id": "thewatchtower",
+  "name": "The Watchtower",
+  "shortName": "Watchtower",
+  "tileId": "117",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "SPACESTATION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "thibah",
+  "name": "Thibah",
+  "shortName": "Thibah",
+  "tileId": "21",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "PROPULSION"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Burdened by overpopulation and low mineral content in the planetary crust. Historically used as a staging world for deep-space exploration and trade.*"
+ },
+ {
+  "id": "thundersedge",
+  "name": "Thunder's Edge",
+  "shortName": "Thund. Edge",
+  "tileId": null,
+  "resources": 5,
+  "influence": 1,
+  "types": [
+   "LIGHTNING"
+  ],
+  "tech": [],
+  "legendary": {
+   "name": "Jupiter Brain",
+   "text": "Gain your breakthrough when you gain this card if you do not already have it. You may exhaust this card at the end of your turn to perform another action."
+  },
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tiamat",
+  "name": "Tiamat",
+  "shortName": "Tiamat",
+  "tileId": "107",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [
+   "CYBERNETIC",
+   "CYBERNETIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tinnes",
+  "name": "Tinnes",
+  "shortName": "Tinnes",
+  "tileId": "105",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL",
+   "HAZARDOUS"
+  ],
+  "tech": [
+   "BIOTIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "torkan",
+  "name": "Torkan",
+  "shortName": "Torkan",
+  "tileId": "28",
+  "resources": 0,
+  "influence": 3,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Populous planet almost completely dependent on foreign imports to sustain the extravagant lifestyles of its citizens.*"
+ },
+ {
+  "id": "trenlak",
+  "name": "Tren'lak",
+  "shortName": "Tren'lak",
+  "tileId": "13",
+  "resources": 1,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "sardakk",
+  "source": "base",
+  "expansion": "base",
+  "flavour": null
+ },
+ {
+  "id": "triad",
+  "name": "The Triad",
+  "shortName": "The Triad",
+  "tileId": null,
+  "resources": 3,
+  "influence": 3,
+  "types": [
+   "FAKE"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "tsionstation",
+  "name": "Tsion Station",
+  "shortName": "Tsion Station",
+  "tileId": "109",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "SPACESTATION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "valk",
+  "name": "Valk",
+  "shortName": "Valk",
+  "tileId": "58",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "argent",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Valk contains lodes of rare minerals and metals within its crust. Skyhooks bring ore shipments up from the surface to the open-air shipyards in orbit.*"
+ },
+ {
+  "id": "valkk",
+  "name": "Valk Keleres",
+  "shortName": "Valk",
+  "tileId": "93new",
+  "resources": 2,
+  "influence": 0,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "keleresa",
+  "source": "codex3",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "vefutii",
+  "name": "Vefut II",
+  "shortName": "Vefut II",
+  "tileId": "20",
+  "resources": 2,
+  "influence": 2,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Massive, rocky world cursed with extreme gravity. Underground cities support advanced research in antigravity technologies.*"
+ },
+ {
+  "id": "vegamajor",
+  "name": "Vega Major",
+  "shortName": "Vega Major",
+  "tileId": "74",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Most of the population resides in orbital habitats supporting mining operations in the planetary ring. Surface colonization limited due to oceanic macrosquid infestations.*"
+ },
+ {
+  "id": "vegaminor",
+  "name": "Vega Minor",
+  "shortName": "Vega Minor",
+  "tileId": "74",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [
+   "PROPULSION"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Famous for extremely shallow seas covering most of the surface and for the renowned Vega Propulsion Corporation. Stilt cities host vibrant multi-species populations.*"
+ },
+ {
+  "id": "velnor",
+  "name": "Velnor",
+  "shortName": "Velnor",
+  "tileId": "72",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "WARFARE"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Barren world of windswept rocks and thick, murky oceans. Lack of local lifeforms allows corporations to strip-mine the surface and test orbital kinetic weapons at the poles.*"
+ },
+ {
+  "id": "virapicsiii",
+  "name": "Vira Pics III",
+  "shortName": "Vira Pics III",
+  "tileId": "103",
+  "resources": 2,
+  "influence": 3,
+  "types": [
+   "CULTURAL",
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "thunders_edge",
+  "expansion": "te",
+  "flavour": null
+ },
+ {
+  "id": "vorhal",
+  "name": "Vorhal",
+  "shortName": "Vorhal",
+  "tileId": "63",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [
+   "BIOTIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*This icy world is wreathed by powerful storms, forcing inhabitants to live underground in geothermal vents. Pacifistic locals award yearly \"peace prizes\" to peacemakers across the galaxy.*"
+ },
+ {
+  "id": "wellon",
+  "name": "Wellon",
+  "shortName": "Wellon",
+  "tileId": "19",
+  "resources": 1,
+  "influence": 2,
+  "types": [
+   "INDUSTRIAL"
+  ],
+  "tech": [
+   "CYBERNETIC"
+  ],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Sky cities suspended in helium-rich atmosphere more noted for fantastic views than the small quantities of exotic elements harvested by their chemical mines.*"
+ },
+ {
+  "id": "winnu",
+  "name": "Winnu",
+  "shortName": "Winnu",
+  "tileId": "07",
+  "resources": 3,
+  "influence": 4,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "winnu",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*The shining cities of the Winnu are the last places where authentic Lazax art and culture are still revered.*"
+ },
+ {
+  "id": "wrenterra",
+  "name": "Wren Terra",
+  "shortName": "Wren Terra",
+  "tileId": "10",
+  "resources": 2,
+  "influence": 1,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "letnev",
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Arid, windy, and populated primarily by predatory Daartar hounds. The Barony utilizes large swathes of its northern steppes for low-yield agriculture.*"
+ },
+ {
+  "id": "xanhact",
+  "name": "Xanhact",
+  "shortName": "Xanhact",
+  "tileId": "73",
+  "resources": 0,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*Rebelled during the end of the Lazax Empire, and was bombarded to ash by a Lazax fleet as an example. Left by the Galactic Council as a memorial to Lazax tyranny.*"
+ },
+ {
+  "id": "xxehan",
+  "name": "Xxehan",
+  "shortName": "Xxehan",
+  "tileId": "32",
+  "resources": 1,
+  "influence": 1,
+  "types": [
+   "CULTURAL"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Known for genetically complex native lifeforms adapted to tainted atmosphere and biochemistry.*"
+ },
+ {
+  "id": "ylir",
+  "name": "Ylir",
+  "shortName": "Ylir",
+  "tileId": "58",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "argent",
+  "source": "pok",
+  "expansion": "pok",
+  "flavour": "*The smallest of the three planets in the Atharel Torus, Ylir is covered in kilometers of water. The Murmeration meets in platform cities that drift with the currents.*"
+ },
+ {
+  "id": "ylirk",
+  "name": "Ylir Keleres",
+  "shortName": "Ylir",
+  "tileId": "93new",
+  "resources": 0,
+  "influence": 2,
+  "types": [
+   "FACTION"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": "keleresa",
+  "source": "codex3",
+  "expansion": "codex",
+  "flavour": null
+ },
+ {
+  "id": "zohbat",
+  "name": "Zohbat",
+  "shortName": "Zohbat",
+  "tileId": "30",
+  "resources": 3,
+  "influence": 1,
+  "types": [
+   "HAZARDOUS"
+  ],
+  "tech": [],
+  "legendary": null,
+  "factionHomeworld": null,
+  "source": "base",
+  "expansion": "base",
+  "flavour": "*Known for its highly intoxicating Zohlian whiskey and the planetary space elevator that links the surface with orbital stations and shipyards.*"
+ }
+]

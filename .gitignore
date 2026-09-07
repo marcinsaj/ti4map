@@ -1,0 +1,12 @@
+node_modules/
+vendor/
+web/tiles/
+docs/rules/*.pdf
+docs/rules/*.txt
+docs/rules/pages/
+__pycache__/
+
+# Materiały źródłowe do analizy – 369 MB, w tym pliki po 60–75 MB.
+# GitHub odrzuca pliki powyżej 100 MB i ostrzega powyżej 50 MB, a do działania
+# generatora ten katalog nie jest w ogóle potrzebny.
+research/
