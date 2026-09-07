@@ -209,10 +209,17 @@ function showTab(name) {
 
 /* ------------------------------ zakładka: gra ------------------- */
 
+/* Dopuszczalna liczba graczy. Dolna granica to trzech: ani podstawka, ani Proroctwo
+   Królów, ani Kraniec Burzy nie podają planszy dla jednego czy dwóch graczy. */
+const MIN_PLAYERS = 3;
+const MAX_PLAYERS = 6;
+const PLAYER_COUNTS = [3, 4, 5, 6];
+
 function buildGameTab() {
   const pc = $('#player-count');
   pc.textContent = '';
-  for (let i = 1; i <= 6; i++) {
+  // Trzech graczy to minimum: żadna instrukcja nie podaje planszy dla jednego ani dwóch.
+  for (let i = MIN_PLAYERS; i <= MAX_PLAYERS; i++) {
     pc.append(h('button', { class: 'chip', 'data-n': i, onclick: () => setPlayerCount(i) }, String(i)));
   }
 
@@ -364,7 +371,7 @@ function syncPlayerCountChips() {
 function syncLayoutChoices() {
   let n = S.playerCount;
   if (countMissing(n).length) {
-    const opts = [1, 2, 3, 4, 5, 6].filter((x) => !countMissing(x).length);
+    const opts = PLAYER_COUNTS.filter((x) => !countMissing(x).length);
     n = opts.reduce((best, x) => (Math.abs(x - n) < Math.abs(best - n) ? x : best), opts[0]);
   }
   setPlayerCount(n);

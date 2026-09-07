@@ -79,6 +79,10 @@ for (const L of layouts) {
   if (hl && !req.length) reqProblems.push(`${L.id}: ${hl} hiperpasów, a nie wymaga dodatku`);
   if (!hl && req.length) reqProblems.push(`${L.id}: bez hiperpasów, a wymaga ${req.join(', ')}`);
 }
+// minimum to trzech graczy – instrukcje nie podają planszy dla jednego ani dwóch
+for (const L of layouts) {
+  if (L.players < 3 || L.players > 6) reqProblems.push(`${L.id}: ${L.players} graczy poza zakresem 3–6`);
+}
 // przy samej podstawce musi zostać jakiś układ, inaczej generator nie miałby co pokazać
 const baseOnly = layouts.filter((L) => !(L.requires || []).length).map((L) => L.players);
 if (!baseOnly.length) reqProblems.push('podstawka bez ani jednego układu');
