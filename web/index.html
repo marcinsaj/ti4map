@@ -33,6 +33,12 @@
       <p class="hint">Włączenie dodatku dorzuca jego kafle do puli losowania i jego rasy do listy wyboru.</p>
       <div id="expansions" class="checklist"></div>
 
+      <h2>Liczba graczy</h2>
+      <p class="hint">Ustawia, ile systemów domowych stanie na planszy, i podpowiada domyślny typ
+        mapy poniżej. Zmiana przebudowuje listę graczy w zakładce „Gracze” – rasy i barwy
+        graczy, którzy się w niej mieszczą, zostają nietknięte.</p>
+      <div id="player-count" class="chips"></div>
+
       <h2>Typ mapy</h2>
       <select id="layout"></select>
       <p id="layout-info" class="hint"></p>
@@ -75,11 +81,6 @@
     </section>
 
     <section class="tab" data-tab="players">
-      <h2>Liczba graczy</h2>
-      <p class="hint">Liczba graczy ustawia domyślny typ mapy i tyle systemów domowych na planszy.
-        Zmiana przelicza listę graczy poniżej.</p>
-      <div id="player-count" class="chips"></div>
-
       <h2>Kolejność graczy przy stole</h2>
       <p class="hint">Numery graczy idą <strong>dookoła planszy</strong>, bo tak samo siedzi się przy
         stole. Wystarczy więc wskazać, w którym gnieździe siedzi <strong>gracz 1</strong> – generator
@@ -112,10 +113,11 @@
       <div id="affinity-list" class="affinity"></div>
 
       <h2>Wyczyść</h2>
-      <p class="hint">Kasuje wszystko, co ustawiono w tej zakładce: liczbę graczy wraca do 4,
-        zdejmuje wybrane rasy i barwy, sadza gracza 1 w pierwszym gnieździe układu, przywraca
-        numerowanie zgodnie z zegarem i wyłącza uwzględnianie zdolności ras. Reszta ustawień
-        (dodatki, typ mapy, wagi, kafle) zostaje bez zmian.</p>
+      <p class="hint">Zdejmuje wybrane rasy i barwy, sadza gracza 1 w pierwszym gnieździe układu,
+        przywraca numerowanie zgodnie z zegarem i wyłącza uwzględnianie zdolności ras. Cofa też
+        <strong>liczbę graczy do 4</strong> – to jedyne ustawienie spoza tej zakładki, którego
+        dotyka, bo od niego zależy sama lista graczy. Dodatki, typ mapy, wagi i kafle zostają
+        bez zmian.</p>
       <div class="btnrow">
         <button id="btn-clear-players">Wyczyść zakładkę „Gracze”</button>
       </div>
