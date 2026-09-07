@@ -68,6 +68,23 @@ for (const [id, want] of Object.entries(TE_SETUPS)) {
 }
 console.log('układy z hiperpasami zgodne z instrukcją Krańca Burzy:', teOk ? 'OK' : 'BŁĄD');
 
+// --- wymagane dodatki: układ z hiperpasami musi je wypisać, inaczej dałoby się go wybrać
+//     bez dodatku, z którego pochodzą kafle ---
+const meta = load('meta');
+const reqProblems = [];
+for (const L of layouts) {
+  const req = L.requires || [];
+  for (const id of req) if (!meta.expansions[id]) reqProblems.push(`${L.id}: nieznany dodatek ${id}`);
+  const hl = Object.keys(L.hyperlanes || {}).length;
+  if (hl && !req.length) reqProblems.push(`${L.id}: ${hl} hiperpasów, a nie wymaga dodatku`);
+  if (!hl && req.length) reqProblems.push(`${L.id}: bez hiperpasów, a wymaga ${req.join(', ')}`);
+}
+// przy samej podstawce musi zostać jakiś układ, inaczej generator nie miałby co pokazać
+const baseOnly = layouts.filter((L) => !(L.requires || []).length).map((L) => L.players);
+if (!baseOnly.length) reqProblems.push('podstawka bez ani jednego układu');
+console.log('wymagane dodatki układów:', reqProblems.length ? `BŁĄD ${reqProblems.join(' | ')}` : 'OK',
+  `| na samej podstawce: ${[...new Set(baseOnly)].sort().join(', ')} graczy`);
+
 // --- katalog kart ---
 const cards = load('cards');
 const factionIds = new Set(factions.map((f) => f.id));

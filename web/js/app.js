@@ -224,7 +224,8 @@ function buildGameTab() {
     cb.addEventListener('change', () => {
       S.expansions = Object.values(S.data.meta.expansions)
         .filter((x) => $(`#expansions [data-exp="${x.id}"] input`).checked).map((x) => x.id);
-      buildTilesTab(); buildPlayers(); refreshPoolInfo();
+      // setPlayerCount w środku przebuduje listę graczy i zakładkę kafli
+      syncLayoutChoices(); refreshPoolInfo();
     });
     ex.append(h('label', { class: 'row', 'data-exp': e.id }, cb,
       h('span', {}, e.name),
@@ -312,14 +313,66 @@ function syncModeUI() {
 function allLayouts() {
   return S.customLayout ? [...S.data.layouts, S.customLayout] : S.data.layouts;
 }
+/**
+ * Czy włączone dodatki wystarczą, żeby ten układ złożyć. Układ wczytany z pliku
+ * (`S.customLayout`) nie ma pola `requires` – kafle przyszły razem z zapisem.
+ */
+function layoutAvailable(L) {
+  return (L.requires || []).every((id) => S.expansions.includes(id));
+}
+
+/** Nazwy dodatków, których brakuje do tego układu – do podpowiedzi dla użytkownika. */
+function layoutMissing(L) {
+  return (L.requires || []).filter((id) => !S.expansions.includes(id))
+    .map((id) => S.data.meta.expansions[id].name);
+}
+
+/** Układy dla danej liczby graczy, tylko te możliwe przy obecnych dodatkach. */
 function layoutsForCount(n) {
+  const all = allLayouts().filter((l) => l.players === n && layoutAvailable(l));
+  return all.length ? all : allLayouts().filter((l) => l.players === n);
+}
+
+/**
+ * Nazwy dodatków, bez których dla tej liczby graczy nie ma ani jednego układu.
+ * Pusta lista = liczbę graczy da się wybrać.
+ */
+function countMissing(n) {
   const all = allLayouts().filter((l) => l.players === n);
-  return all.length ? all : allLayouts();
+  if (!all.length || all.some(layoutAvailable)) return [];
+  return [...new Set(all.flatMap(layoutMissing))];
+}
+
+/** Blokuje liczby graczy, dla których żaden układ nie jest dostępny, i mówi dlaczego. */
+function syncPlayerCountChips() {
+  $$('#player-count .chip').forEach((b) => {
+    const n = Number(b.dataset.n);
+    const missing = countMissing(n);
+    b.disabled = missing.length > 0;
+    b.title = missing.length
+      ? `Dla ${n} ${odmiana(n, 'gracza', 'graczy', 'graczy')} nie ma układu`
+        + ` bez ${missing.length > 1 ? 'dodatków' : 'dodatku'}: ${missing.join(', ')}.`
+      : `Ustaw ${n} ${odmiana(n, 'gracza', 'graczy', 'graczy')} na planszy.`;
+    b.classList.toggle('active', n === S.playerCount);
+  });
+}
+
+/**
+ * Po zmianie zestawu dodatków: przebudowuje listę układów i – jeśli trzeba – przenosi
+ * na liczbę graczy, dla której w ogóle jakiś układ został.
+ */
+function syncLayoutChoices() {
+  let n = S.playerCount;
+  if (countMissing(n).length) {
+    const opts = [1, 2, 3, 4, 5, 6].filter((x) => !countMissing(x).length);
+    n = opts.reduce((best, x) => (Math.abs(x - n) < Math.abs(best - n) ? x : best), opts[0]);
+  }
+  setPlayerCount(n);
 }
 
 function setPlayerCount(n) {
   S.playerCount = n;
-  $$('#player-count .chip').forEach((b) => b.classList.toggle('active', Number(b.dataset.n) === n));
+  syncPlayerCountChips();
   const opts = layoutsForCount(n);
   const sel = $('#layout');
   sel.textContent = '';
@@ -350,6 +403,10 @@ function syncLayoutInfo() {
       ? `Do wylosowania: ${need.blue} kafli niebieskich i ${need.red} czerwonych na ${L.slots.length} miejsc.`
       : `Rozdanie: ${L.deal.blue} niebieskich + ${L.deal.red} czerwonych na gracza, razem ${need.blue + need.red} kafli.`,
   ];
+  if (L.requires?.length) {
+    parts.push(`Wymaga ${L.requires.length > 1 ? 'dodatków' : 'dodatku'}: `
+      + `${L.requires.map((id) => S.data.meta.expansions[id].name).join(' i ')}.`);
+  }
   if (L.extra?.note) parts.push(L.extra.note);
   const hlCount = Object.keys(L.hyperlanes || {}).length;
   if (hlCount) parts.push(`Hiperpasy ustawione z góry: ${hlCount} kafli – skracają dystanse i zmniejszają liczbę losowanych kafli.`);
@@ -1546,16 +1603,21 @@ function loadFromText(text) {
     if (kv.has('dodatki')) {
       const list = kv.get('dodatki').split(/[,\s]+/).filter((x) => S.data.meta.expansions[x]);
       if (list.length) S.expansions = list;
-      Object.values(S.data.meta.expansions).forEach((e) => {
-        const cb = $(`#expansions [data-exp="${e.id}"] input`);
-        if (cb) cb.checked = S.expansions.includes(e.id);
-      });
     }
 
     const known = kv.has('uklad') && S.data.layouts.find((l) => l.id === kv.get('uklad'));
     const layout = known || layoutFromPlacement(placement, players);
     if (!known) S.customLayout = layout;
     S.layoutId = layout.id;
+
+    // Zapis może wskazywać układ z dodatku, którego w linijce „dodatki” zabrakło
+    // (plik pisany ręcznie). Bez tego dodatku układ zniknąłby z listy, a pole wyboru
+    // rozjechałoby się ze stanem aplikacji – więc włączamy go razem z mapą.
+    for (const id of layout.requires || []) if (!S.expansions.includes(id)) S.expansions.push(id);
+    Object.values(S.data.meta.expansions).forEach((e) => {
+      const cb = $(`#expansions [data-exp="${e.id}"] input`);
+      if (cb) cb.checked = S.expansions.includes(e.id);
+    });
 
     S.players = layout.homes.map((pos, i) => ({
       colorId: paletteById(players[i]?.colorId)?.id || null,

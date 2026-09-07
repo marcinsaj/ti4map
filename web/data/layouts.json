@@ -4,6 +4,9 @@
   "name": "1 gracz – \"Island\" (solo/nauka)",
   "players": 1,
   "official": false,
+  "requires": [
+   "pok"
+  ],
   "credit": "Układ społecznościowy (AsyncTI4 / BigAlCupAChino)",
   "homes": [
    "310"
@@ -57,6 +60,9 @@
   "name": "2 graczy – hiperpasy",
   "players": 2,
   "official": false,
+  "requires": [
+   "pok"
+  ],
   "credit": "Układ społecznościowy (AsyncTI4)",
   "homes": [
    "301",
@@ -152,6 +158,9 @@
   "name": "3 graczy – z hiperpasami (wariant społecznościowy)",
   "players": 3,
   "official": false,
+  "requires": [
+   "pok"
+  ],
   "credit": "Wariant społecznościowy (AsyncTI4 / draft Milty). Instrukcja Krańca Burzy podaje układy z hiperpasami tylko dla 4 i 5 graczy",
   "note": "Hiperpasy skracają dystanse między graczami: losujesz tylko 5 kafli na gracza zamiast 8. Uwaga: ten układ wymaga aż 3 kompletów kafli hiperpasów (83A–88A), więc „na stole” złożysz go tylko z trzech pudełek – w wersji ekranowej działa bez ograniczeń.",
   "homes": [
@@ -257,8 +266,12 @@
   "name": "4 graczy – z hiperpasami (Kraniec Burzy)",
   "players": 4,
   "official": true,
+  "requires": [
+   "pok",
+   "te"
+  ],
   "credit": "Instrukcja Krańca Burzy, s. 7 („Setup Variations” → „Four-Player Setup”)",
-  "note": "Hiperpasy „sklejają” galaktykę: losujesz 5 kafli na gracza zamiast 8, a odległości do sąsiadów są wyrównane. Ten układ wymaga też Proroctwa Królów: potrzeba 12 kafli hiperpasów, czyli 119A–124A z Krańca Burzy plus 83A–88A z Proroctwa Królów.",
+  "note": "Hiperpasy „sklejają” galaktykę: losujesz 5 kafli na gracza zamiast 8, a odległości do sąsiadów są wyrównane. Potrzeba do niego 12 kafli hiperpasów, czyli dwóch kompletów: 119A–124A z Krańca Burzy plus 83A–88A z Proroctwa Królów.",
   "homes": [
    "304",
    "307",
@@ -372,6 +385,9 @@
   "name": "5 graczy – z hiperpasami (układ oficjalny)",
   "players": 5,
   "official": true,
+  "requires": [
+   "pok"
+  ],
   "credit": "Living Rules Reference 2.0, s. 6; ten sam układ powtarza instrukcja Krańca Burzy, s. 7",
   "note": "Wystarczy jeden komplet hiperpasów: 83A–88A (Proroctwo Królów) albo 119A–124A (Kraniec Burzy). Uwaga: w wariancie z hiperpasami nie rozdaje się dóbr handlowych za gorszą pozycję startową.",
   "homes": [
