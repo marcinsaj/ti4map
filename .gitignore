@@ -1,6 +1,8 @@
 node_modules/
 vendor/
-web/tiles/
+# UWAGA: web/tiles/ (231 grafik kafli, 37 MB) trafia DO repozytorium – strona na
+# GitHub Pages serwuje je bezpośrednio, bez pobierania przy każdym wdrożeniu.
+# Odtworzenie po świeżym klonowaniu: npm run fetch:tiles
 docs/rules/*.pdf
 docs/rules/*.txt
 docs/rules/pages/

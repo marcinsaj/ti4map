@@ -1,0 +1,55 @@
+# Publikacja generatora na GitHub Pages.
+#
+# Grafiki kafli leżą w repozytorium (web/tiles/), więc nie ma tu kroku ich pobierania –
+# wdrożenie jest przez to szybkie i nie zależy od zewnętrznego serwera.
+# Dane w web/data/ też są w repozytorium, ale budujemy je na nowo i puszczamy smoke-test:
+# jeśli dane się rozjadą, wdrożenie ma się zatrzymać, a nie wystawić zepsutą stronę.
+
+name: Publikacja na GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:        # pozwala uruchomić ręcznie z zakładki Actions
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Zbuduj dane
+        run: npm run build:data
+
+      - name: Sprawdź poprawność
+        run: node scripts/smoke-test.mjs
+
+      - name: Wyłącz Jekyll
+        run: touch web/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web            # publikujemy wyłącznie katalog web/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
