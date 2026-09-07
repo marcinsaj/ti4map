@@ -71,9 +71,10 @@ obrazka pojawia się zdanie o tym, że grafiki nie pobrano.
 
 Dwie rzeczy warte świadomej decyzji:
 
-* Katalog `web/tiles/` jest wpisany do `.gitignore`, więc **nie leży w repozytorium**. Przy
-  publikacji przez GitHub trzeba albo go świadomie dodać, albo pobierać grafiki automatycznie
-  przy wdrożeniu (gotowy przepis w rozdziale 4.3).
+* W tym projekcie grafiki **leżą w repozytorium** — patrz `.gitignore` i rozdział 2.3
+  dokumentu [GITHUB-KROK-PO-KROKU.md](GITHUB-KROK-PO-KROKU.md). Alternatywa dla innych
+  wdrożeń: trzymać katalog poza repozytorium i pobierać grafiki przy każdym wdrożeniu
+  (krok `npm run fetch:tiles` w workflow, rozdział 4.3).
 * Grafiki to materiały Fantasy Flight Games, pobierane ze zbioru projektu AsyncTI4. Przy
   publicznej publikacji warto mieć to na uwadze. Jeśli strona ma być dostępna dla wszystkich,
   a nie tylko dla twojej grupy grającej, wersja bez grafik jest bezpieczniejsza — i lżejsza
@@ -182,7 +183,8 @@ jobs:
       - name: Zbuduj dane
         run: npm run build:data
 
-      # Usuń ten krok, jeśli publikujesz wersję bez grafik kafli.
+      # Ten krok potrzebny jest tylko wtedy, gdy grafik NIE ma w repozytorium.
+      # W tym projekcie są, więc plik .github/workflows/pages.yml go nie zawiera.
       - name: Pobierz grafiki kafli
         run: npm run fetch:tiles
 

@@ -1,234 +1,183 @@
-# GitHub od zera: repozytorium i publiczna strona
+# GitHub: repozytorium i publiczna strona — stan i dalsze kroki
 
-Instrukcja od stanu, w jakim projekt jest teraz (**katalog na dysku, bez żadnego repozytorium**)
-do działającej, publicznej strony pod adresem `https://marcinsaj.github.io/ti4-map-generator/`.
+Dokument opisuje konkretne repozytorium **`marcinsaj/ti4map`** i drogę do strony pod adresem:
+
+```
+https://marcinsaj.github.io/ti4map/
+```
 
 Szersze porównanie miejsc hostingu jest w [PUBLIKACJA-ONLINE.md](PUBLIKACJA-ONLINE.md).
-Ten dokument jest wąski: wyłącznie GitHub, wyłącznie krok po kroku.
+Ten dokument jest wąski: wyłącznie ten projekt, to repozytorium.
 
 ---
 
-## 0. Odpowiedzi na pytania wprost
+## 1. Odpowiedzi na pytania wprost
 
-**Czy muszę dodać repozytorium?**
-Tak. GitHub Pages nie jest osobną usługą, do której się „wgrywa pliki” — to funkcja
-repozytorium. Bez repozytorium nie ma czego opublikować. Projekt **nie jest jeszcze**
-repozytorium git (sprawdzone: `git rev-parse` zwraca „not a git repository”), więc zaczynamy
-od `git init`.
+**Czy adres będzie kończył się na `/ti4map`?**
+Tak, i to bez żadnych ustawień. GitHub Pages dla zwykłego repozytorium (tzw. *project site*)
+zawsze buduje adres jako `https://LOGIN.github.io/NAZWA-REPO/`. Nazwa repozytorium brzmi
+`ti4map`, więc adres wychodzi `https://marcinsaj.github.io/ti4map/` — dokładnie o to chodziło.
 
-**Czy muszę konfigurować Claude Code?**
-Nie. Wszystko, czego potrzeba, już działa na tym komputerze:
+To działa, bo **wszystkie ścieżki w projekcie są względne** (`js/app.js`, `data/systems.json`,
+`tiles/…`, `styles.css`). Sprawdzone: w `web/index.html` ani w `web/js/*.js` nie ma ani jednej
+ścieżki zaczynającej się od `/`. Gdyby była, strona w podkatalogu by się wysypała, bo `/js/…`
+prowadziłoby do `marcinsaj.github.io/js/…` zamiast `marcinsaj.github.io/ti4map/js/…`.
 
-| Narzędzie | Stan |
-|---|---|
-| `git` | 2.52.0 ✔ |
-| `git config user.name` / `user.email` | `Marcin Saj` / `marcin@nixietester.com` ✔ |
-| `gh` (GitHub CLI) | 2.88.1 ✔ |
-| Logowanie do GitHuba | zalogowany jako **marcinsaj**, protokół SSH ✔ |
-| Uprawnienia tokenu | `repo`, `workflow`, `gist`, `read:org` ✔ |
+Adres bez `/ti4map` (czyli `https://marcinsaj.github.io/`) wymagałby repozytorium o nazwie
+dokładnie `marcinsaj.github.io`. Nie o to prosiłeś, ale warto wiedzieć, że to jedyna różnica.
 
-Zakres `workflow` jest istotny — bez niego `git push` odrzuciłby wysłanie pliku
-`.github/workflows/pages.yml`. Jest, więc problemu nie będzie.
+**Czy musiałem dodać repozytorium?**
+Tak — GitHub Pages to funkcja repozytorium, nie osobna usługa do wgrywania plików.
+Repozytorium `ti4map` już istnieje i projekt jest z nim połączony (rozdział 2).
 
-Claude Code umie wykonać każdy z poniższych kroków (poza tymi wymagającymi kliknięcia
-w przeglądarce), ale **nie zrobi tego sam z siebie** — utworzenie publicznego repozytorium
-jest działaniem nieodwracalnym i widocznym na zewnątrz, więc czeka na wyraźne polecenie.
-Wystarczy napisać np. „utwórz repozytorium i opublikuj”.
-
-**Czy strona musi być publiczna?**
-Do darmowego GitHub Pages — tak, repozytorium musi być publiczne. Pages z repozytorium
-prywatnego wymaga płatnego planu (Pro / Team). Jeśli kod ma zostać prywatny, a strona i tak
-publiczna — użyj Cloudflare Pages (rozdział 5 w PUBLIKACJA-ONLINE.md).
+**Czy trzeba konfigurować Claude Code?**
+Nie. `git` 2.52, `gh` 2.88 zalogowany jako `marcinsaj`, tożsamość w git ustawiona — wszystko
+było gotowe. Jedyne, co wymagało obejścia, to zepsuty SSH (rozdział 2.1).
 
 ---
 
-## 1. Zanim cokolwiek zatwierdzisz: co NIE może trafić do repozytorium
+## 2. Co już jest zrobione
 
-To najważniejszy krok całej instrukcji, bo błąd popełniony tutaj jest bolesny do naprawienia
-— raz zatwierdzony plik zostaje w historii repozytorium nawet po skasowaniu.
-
-W katalogu projektu leży **406 MB**, ale do repozytorium powinno trafić **1,5 MB**.
-Reszta to materiały robocze i pobrane zasoby:
-
-| Katalog | Rozmiar | Dlaczego nie |
-|---|---|---|
-| `research/pdf/` | 358 MB | **dwa pliki mają 75 MB i 62 MB** — GitHub odrzuca pliki >100 MB i ostrzega przy >50 MB |
-| `research/pages/` | 11 MB | wyrenderowane strony PDF, materiał roboczy |
-| `docs/rules/` | 36 MB | oficjalne PDF-y zasad — materiały FFG, nie nasze |
-| `vendor/` | ~10 MB | sklonowane repozytorium AsyncTI4, odtwarzalne komendą `npm run vendor` |
-| `web/tiles/` | 37 MB | grafiki kafli — patrz rozdział 5, to osobna decyzja |
-
-Wszystkie są już wpisane w `.gitignore` (`research/` dopisałem właśnie w ramach
-przygotowania). **Sprawdź to przed pierwszym zatwierdzeniem:**
+Repozytorium powstało na GitHubie z licencją **GPL-3.0** i zaślepką `README.md`, czyli miało
+już jeden commit. Dlatego projektu nie dało się po prostu „wypchnąć” — trzeba było oprzeć
+lokalną historię na tamtym commicie:
 
 ```bash
-cat .gitignore
-```
-
-Powinno zawierać `node_modules/`, `vendor/`, `web/tiles/`, `docs/rules/*.pdf`,
-`docs/rules/*.txt`, `docs/rules/pages/`, `__pycache__/` oraz `research/`.
-
----
-
-## 2. Utworzenie repozytorium lokalnego
-
-```bash
-cd D:/cc/ti4
 git init -b main
+git remote add origin https://github.com/marcinsaj/ti4map.git
+git fetch origin
+git reset origin/main        # historia startuje od commita z GitHuba
+git checkout -- LICENSE      # GPL-3.0 zachowana
 git add -A
-git status --short          # OBEJRZYJ TĘ LISTĘ
-```
-
-Zanim zatwierdzisz — przejrzyj wynik `git status --short`. Nie powinno tam być **niczego**
-z `research/`, `vendor/`, `docs/rules/` ani `web/tiles/`. Szybkie sprawdzenie, ile to waży:
-
-```bash
-git count-objects -vH       # pozycja "size-pack" po zatwierdzeniu
-```
-
-Jeśli lista wygląda dobrze:
-
-```bash
 git commit -m "Generator map do Twilight Imperium 4"
 ```
 
----
+Efekt: `Initial commit` → `Generator map…` → `Grafiki kafli…`. Wysłanie będzie czystym
+fast-forward, bez scalania i bez konfliktów. Zaślepka README została zastąpiona właściwym
+plikiem projektu, licencja GPL-3.0 została nietknięta.
 
-## 3. Utworzenie repozytorium na GitHubie
+### 2.1. Dlaczego HTTPS, a nie SSH
 
-### Wariant A — jedną komendą (polecany, bo `gh` jest już zalogowany)
+Pierwsza próba przez SSH nie powiodła się:
+
+```
+Can't open user config file G:/PDE/ssh/config: No such file or directory
+```
+
+W globalnej konfiguracji git jest `core.sshCommand = ssh -F G:/PDE/ssh/config`, a tej ścieżki
+nie ma (dysk `G:` niedostępny). W `~/.ssh` nie ma też żadnych kluczy — tylko `known_hosts`.
+
+Obejście nie ruszyło globalnych ustawień: zdalne repozytorium jest podpięte przez HTTPS,
+a poświadczenia bierze z `gh` — konfiguracja zapisana **tylko w tym repozytorium**:
 
 ```bash
-gh repo create ti4-map-generator --public --source=. --remote=origin --push \
-  --description "Generator zbalansowanych map do Twilight Imperium 4"
+git remote set-url origin https://github.com/marcinsaj/ti4map.git
+git config credential.https://github.com.helper "!gh auth git-credential"
 ```
 
-Ta jedna komenda: zakłada publiczne repozytorium na koncie `marcinsaj`, ustawia je jako
-`origin` i wysyła gałąź `main`. Po jej wykonaniu repozytorium jest pod
-`https://github.com/marcinsaj/ti4-map-generator`.
+Gdy kiedyś naprawisz SSH, wystarczy:
+`git remote set-url origin git@github.com:marcinsaj/ti4map.git`.
 
-### Wariant B — przez stronę
+### 2.2. Co trafiło do repozytorium, a co nie
 
-1. Wejdź na <https://github.com/new>.
-2. *Repository name*: `ti4-map-generator`, widoczność: **Public**.
-3. **Nie zaznaczaj** „Add a README file”, „Add .gitignore” ani „Choose a license” — mamy już
-   własne pliki, a te opcje tworzą zatwierdzenie, które koliduje z lokalnym.
-4. *Create repository*, a potem lokalnie:
+W katalogu projektu leży 406 MB. Do repozytorium poszło **263 pliki, 37,4 MB**
+(29,8 MB po spakowaniu). Wykluczone przez `.gitignore`:
 
-   ```bash
-   git remote add origin git@github.com:marcinsaj/ti4-map-generator.git
-   git push -u origin main
-   ```
+| Katalog | Rozmiar | Dlaczego nie |
+|---|---|---|
+| `research/` | 369 MB | **pliki po 75 MB i 62 MB** — GitHub odrzuca >100 MB, ostrzega >50 MB |
+| `docs/rules/` | 36 MB | oficjalne PDF-y zasad — materiały FFG |
+| `vendor/` | ~10 MB | klon repozytorium AsyncTI4, odtwarzalny przez `npm run vendor` |
 
-   (Protokół SSH, bo tak skonfigurowany jest twój `gh`. Jeśli SSH nie działa, użyj
-   `https://github.com/marcinsaj/ti4-map-generator.git` — `gh` dostarczy dane logowania.)
+`research/` dopisałem do `.gitignore` przy okazji — wcześniej go tam nie było i pierwszy
+`push` skończyłby się odrzuceniem „file exceeds GitHub's file size limit”.
+
+### 2.3. Grafiki kafli — w repozytorium
+
+Zgodnie z decyzją **231 grafik kafli (37 MB) leży w repozytorium**, w `web/tiles/`.
+Wcześniej katalog był w `.gitignore`; teraz jest tam w jego miejsce komentarz wyjaśniający,
+dlaczego wyjątkowo wchodzi.
+
+Sprawdzone: wszystkie 231 grafik wymaganych przez `web/data/systems.json` są na miejscu,
+żadnej nie brakuje, nie ma też plików nadmiarowych. Największy waży 258 kB.
+
+Zalety takiego rozwiązania: wdrożenie trwa kilkanaście sekund zamiast kilku minut i nie zależy
+od tego, czy zewnętrzny serwer z grafikami akurat odpowiada. Koszt: 37 MB w repozytorium,
+czyli 4% limitu GitHub Pages (1 GB).
+
+### 2.4. Workflow publikacji
+
+Plik `.github/workflows/pages.yml` jest gotowy. Nie ma w nim kroku pobierania grafik — są
+w repozytorium. Buduje natomiast dane od nowa i puszcza smoke-test, żeby rozjechane dane
+zatrzymały wdrożenie, zamiast trafić na stronę.
 
 ---
 
-## 4. Włączenie GitHub Pages
+## 3. Co zostało do zrobienia
 
-Publikujemy przez GitHub Actions, a nie z gałęzi — dzięki temu dane i grafiki powstają
-automatycznie przy każdym wdrożeniu i nie muszą leżeć w repozytorium.
-
-### 4.1. Dodaj plik workflow
-
-Utwórz **`.github/workflows/pages.yml`** o treści podanej w rozdziale 4.3 dokumentu
-[PUBLIKACJA-ONLINE.md](PUBLIKACJA-ONLINE.md), a potem:
+### Krok 1 — wysłanie na GitHuba
 
 ```bash
-git add .github/workflows/pages.yml
-git commit -m "Automatyczna publikacja na GitHub Pages"
-git push
+git push -u origin main
 ```
 
-### 4.2. Przestaw źródło publikacji
+To moment publikacji: 37 MB idzie na publiczne repozytorium. Pierwszy `push` potrwa
+minutę–dwie.
 
-W przeglądarce: **repozytorium → Settings → Pages → Build and deployment → Source** →
-wybierz **`GitHub Actions`**.
+### Krok 2 — włączenie Pages (jedno kliknięcie w przeglądarce)
 
-Tego kroku nie da się zrobić z wiersza poleceń w sposób, który warto polecać — to jedno
-kliknięcie w ustawieniach i trzeba je zrobić ręcznie, raz.
+**<https://github.com/marcinsaj/ti4map/settings/pages>** → *Build and deployment* →
+*Source* → wybierz **`GitHub Actions`**.
 
-### 4.3. Zobacz, jak buduje
+Tego kroku nie da się sensownie zrobić z konsoli — to jedno ustawienie, raz.
 
-Zakładka **Actions** w repozytorium pokazuje przebieg. Pierwsze wdrożenie trwa zwykle
-2–5 minut, głównie przez pobieranie 231 grafik kafli. Po zakończeniu adres strony pojawia
-się w **Settings → Pages** na górze, w ramce „Your site is live at…”.
+### Krok 3 — poczekać na wdrożenie
 
-Adres będzie brzmiał:
+Zakładka **Actions** pokazuje przebieg; pierwsze wdrożenie to zwykle 1–2 minuty.
+Po zakończeniu w **Settings → Pages** pojawi się ramka „Your site is live at…”.
 
-```
-https://marcinsaj.github.io/ti4-map-generator/
-```
-
-Od tej chwili **każdy `git push` do gałęzi `main` przebudowuje i publikuje stronę**.
-Nic więcej nie musisz robić.
+Od tej chwili **każdy `git push` do `main` przebudowuje i publikuje stronę**.
 
 ---
 
-## 5. Decyzja do podjęcia: grafiki kafli
+## 4. Praca z Claude Code przy tym repozytorium
 
-W workflow jest krok „Pobierz grafiki kafli”. To jedyne miejsce, gdzie trzeba się zastanowić.
-
-**Zostawiasz krok** → strona wygląda dokładnie jak lokalnie, z oryginalnymi grafikami kafli.
-Grafiki są pobierane przy każdym wdrożeniu ze zbioru projektu AsyncTI4 i publikowane pod twoim
-adresem. To materiały Fantasy Flight Games — przy stronie widocznej dla całego internetu warto
-mieć tego świadomość.
-
-**Usuwasz krok** → strona jest o 37 z 38 MB lżejsza, buduje się w kilkanaście sekund, a mapa
-rysuje się w trybie „bez grafik”: barwy heksów, ikony cech i specjalizacji, nazwy, zasoby,
-anomalie, tunele, hiperpasy. Wszystko, co generator liczy, jest widoczne — brakuje wyłącznie
-zdjęć kafli, a w panelu szczegółów pojawia się zdanie, że grafik nie pobrano.
-
-Decyzja jest twoja; funkcjonalnie generator działa tak samo w obu wariantach.
+* **Zatwierdzanie i wysyłanie na żądanie.** Claude Code nie robi `commit` ani `push` z własnej
+  inicjatywy — czeka na wyraźne polecenie. Wysłanie na publiczne repozytorium jest widoczne
+  na zewnątrz i trudne do cofnięcia.
+* **Polecenia interaktywne wykonujesz sam.** Gdyby trzeba było się przelogować
+  (`gh auth login`) albo podać hasło, wpisz komendę z przedrostkiem `!`, np. `! gh auth login` —
+  wykona się w tej sesji, a wynik trafi do rozmowy.
+* **Podgląd przed wysłaniem.** Warto poprosić o `git status` i `git diff`, zwłaszcza gdy
+  zmieniało się dane albo dochodziły nowe pliki.
+* **Sprawdzenie przed publikacją.** Po zmianach w danych albo generatorze:
+  `npm run build:data` i `node scripts/smoke-test.mjs`. Workflow puszcza smoke-test i tak,
+  więc zepsute dane zatrzymają wdrożenie.
 
 ---
 
-## 6. Praca z Claude Code przy tym repozytorium
-
-Nic nie trzeba konfigurować, ale warto wiedzieć:
-
-* **Zatwierdzanie i wysyłanie na żądanie.** Claude Code sam z siebie nie robi `commit` ani
-  `push` — czeka na wyraźne polecenie („zatwierdź”, „wypchnij”, „opublikuj”). To celowe:
-  wysłanie na publiczne repozytorium jest widoczne na zewnątrz i trudne do cofnięcia.
-* **Praca poza gałęzią główną.** Przy większych zmianach Claude Code założy gałąź zamiast
-  zatwierdzać prosto na `main`.
-* **Polecenia interaktywne wykonujesz sam.** Jeśli kiedyś trzeba będzie się przelogować
-  (`gh auth login`) albo podać hasło, wpisz komendę w oknie Claude Code z przedrostkiem `!`,
-  np. `! gh auth login` — wykona się w tej sesji, a jej wynik trafi do rozmowy.
-* **Podgląd stanu przed wysłaniem.** Warto poprosić o `git status` i `git diff` przed
-  zatwierdzeniem — zwłaszcza przy pierwszym, gdzie łatwo o przypadkowe dodanie dużych plików.
-* **Sprawdzenie przed publikacją.** Po każdej zmianie w danych albo generatorze:
-  `npm run build:data` i `node scripts/smoke-test.mjs`. Workflow puszcza smoke-test
-  automatycznie, więc zepsute dane zatrzymają wdrożenie zamiast trafić na stronę.
-
----
-
-## 7. Gdyby coś nie zadziałało
+## 5. Gdyby coś nie zadziałało
 
 | Objaw | Przyczyna i co zrobić |
 |---|---|
-| `push` odrzucony: „file exceeds GitHub's file size limit” | Do zatwierdzenia trafił plik z `research/pdf/`. Sprawdź `.gitignore`, a plik usuń z historii — najprościej zacząć repozytorium od nowa (`rm -rf .git`), bo jest jeszcze świeże |
-| `push` odrzucony: „refusing to allow… workflow” | Token bez zakresu `workflow`. Tutaj ten zakres jest, ale gdyby zniknął: `gh auth refresh -s workflow` |
-| Actions: „Pages site failed” | W **Settings → Pages** źródło nie jest ustawione na `GitHub Actions` (rozdział 4.2) |
-| Strona się otwiera, ale jest pusta | Nie zbudowano danych. Sprawdź w logu Actions, czy krok „Zbuduj dane” się wykonał i czy `web/data/` ma sześć plików JSON |
-| Kafle bez grafik | Krok „Pobierz grafiki kafli” został usunięty albo się nie powiódł — patrz rozdział 5 |
+| `push`: „Could not read from remote repository” | Wróciło SSH. Sprawdź `git remote -v` — ma być adres `https://…` |
+| `push`: „file exceeds GitHub's file size limit” | Do commita trafił plik z `research/`. Sprawdź `.gitignore` i `git status --short` przed zatwierdzaniem |
+| `push`: „refusing to allow… workflow” | Token bez zakresu `workflow`. Tutaj ten zakres jest; gdyby zniknął: `gh auth refresh -s workflow` |
+| Actions: „Pages site failed” | W **Settings → Pages** źródło nie jest ustawione na `GitHub Actions` (rozdział 3, krok 2) |
+| Strona pusta, w konsoli błędy przy `data/*.json` | Nie zbudowano danych. Sprawdź w logu Actions krok „Zbuduj dane” |
+| Kafle bez grafik, w konsoli błędy 404 przy `tiles/…` | `web/tiles/` nie trafiło do repozytorium — sprawdź `git ls-files web/tiles \| wc -l`, ma być 231 |
 | Strona pokazuje starą wersję | Pamięć podręczna przeglądarki. Ctrl+F5 albo tryb prywatny |
 
 ---
 
-## 8. Cała droga w skrócie
+## 6. Sprawdzenie po opublikowaniu
 
-```bash
-cd D:/cc/ti4
-cat .gitignore                      # research/, vendor/, web/tiles/, docs/rules/
-git init -b main
-git add -A
-git status --short                  # obejrzyj, zanim zatwierdzisz
-git commit -m "Generator map do Twilight Imperium 4"
-gh repo create ti4-map-generator --public --source=. --remote=origin --push
-# … dodaj .github/workflows/pages.yml, zatwierdź, wypchnij …
-# … Settings → Pages → Source: GitHub Actions …
-```
+Wejdź na `https://marcinsaj.github.io/ti4map/` i przejdź listę:
 
-Efekt: `https://marcinsaj.github.io/ti4-map-generator/`
+1. Strona się otwiera, widać nagłówek „Generator map”.
+2. Mapa rysuje się sama (domyślnie 4 graczy).
+3. **Generuj mapę** za każdym razem daje inny układ.
+4. Kafle mają grafiki.
+5. Kliknięcie kafla pokazuje szczegóły w panelu po prawej.
+6. Zakładka **Rasy i karty** wyświetla listę ras.
+7. Konsola przeglądarki (F12) bez czerwonych błędów.
