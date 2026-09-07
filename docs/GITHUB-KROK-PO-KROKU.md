@@ -113,30 +113,47 @@ zatrzymały wdrożenie, zamiast trafić na stronę.
 
 ---
 
-## 3. Co zostało do zrobienia
+## 3. Strona działa
 
-### Krok 1 — wysłanie na GitHuba
+**<https://marcinsaj.github.io/ti4map/>** — opublikowana i sprawdzona.
 
-```bash
-git push -u origin main
+Pages włączyliśmy przez API (`gh api -X POST repos/marcinsaj/ti4map/pages -f
+build_type=workflow`), więc klikanie w Settings nie było potrzebne. Ustawienie widać
+w **Settings → Pages** jako *Source: GitHub Actions*.
+
+Od tej chwili **każdy `git push` do `main` przebudowuje i publikuje stronę** — wdrożenie
+trwa ok. 35 sekund.
+
+### 3.1. Pierwsze wdrożenie padło — i dlaczego
+
+Workflow miał krok `npm run build:data`. Na maszynie GitHuba wywalił się od razu:
+
+```
+Brak danych źródłowych: /home/runner/work/ti4map/ti4map/vendor/async/src/main/resources
+Uruchom najpierw:  npm run vendor
 ```
 
-To moment publikacji: 37 MB idzie na publiczne repozytorium. Pierwszy `push` potrwa
-minutę–dwie.
+Budowanie danych wymaga katalogu `vendor/async` — klonu repozytorium AsyncTI4, którego
+w repozytorium nie ma i mieć nie powinien (10 MB odtwarzalnych jedną komendą).
 
-### Krok 2 — włączenie Pages (jedno kliknięcie w przeglądarce)
+Można było dorzucić `npm run vendor` przed budowaniem, ale byłoby to **gorsze**: opublikowane
+dane mogłyby po cichu różnić się od tych przetestowanych lokalnie, bo wystarczyłaby zmiana
+po stronie AsyncTI4 między jednym a drugim wdrożeniem.
 
-**<https://github.com/marcinsaj/ti4map/settings/pages>** → *Build and deployment* →
-*Source* → wybierz **`GitHub Actions`**.
+Rozwiązanie: workflow **publikuje dane zatwierdzone w repozytorium** i nie buduje ich od nowa.
+Smoke-test sprawdza dokładnie te pliki, które trafiają na stronę — więc zepsute dane dalej
+zatrzymają wdrożenie. Dane buduje się lokalnie (`npm run build:data`) i zatwierdza, dokładnie
+tak, jak nakazuje CLAUDE.md.
 
-Tego kroku nie da się sensownie zrobić z konsoli — to jedno ustawienie, raz.
+### 3.2. Sprawdzenie na żywo
 
-### Krok 3 — poczekać na wdrożenie
-
-Zakładka **Actions** pokazuje przebieg; pierwsze wdrożenie to zwykle 1–2 minuty.
-Po zakończeniu w **Settings → Pages** pojawi się ramka „Your site is live at…”.
-
-Od tej chwili **każdy `git push` do `main` przebudowuje i publikuje stronę**.
+| Co | Wynik |
+|---|---|
+| `index.html`, `js/app.js`, `data/systems.json`, `tiles/*.png` | HTTP 200 |
+| Kafle na mapie | 37 |
+| Grafiki kafli | 33 (reszta to gniazda domowe i puste) |
+| Rasy na liście | 116 |
+| Błędy w konsoli | brak |
 
 ---
 
