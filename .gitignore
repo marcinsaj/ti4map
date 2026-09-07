@@ -1,14 +1,33 @@
+# W repozytorium trzymamy WYŁĄCZNIE to, co potrzebne, żeby strona działała na GitHub Pages:
+# katalog web/ (z danymi i grafikami kafli), smoke-test i workflow publikacji.
+# Wszystko poniżej zostaje na dysku, ale poza repozytorium.
+
 node_modules/
-vendor/
-# UWAGA: web/tiles/ (231 grafik kafli, 37 MB) trafia DO repozytorium – strona na
-# GitHub Pages serwuje je bezpośrednio, bez pobierania przy każdym wdrożeniu.
-# Odtworzenie po świeżym klonowaniu: npm run fetch:tiles
-docs/rules/*.pdf
-docs/rules/*.txt
-docs/rules/pages/
 __pycache__/
 
-# Materiały źródłowe do analizy – 369 MB, w tym pliki po 60–75 MB.
-# GitHub odrzuca pliki powyżej 100 MB i ostrzega powyżej 50 MB, a do działania
-# generatora ten katalog nie jest w ogóle potrzebny.
+# --- narzędzia deweloperskie ---------------------------------------------------
+# Generator danych i pobieranie grafik: potrzebne przy pracy nad projektem, nie przy
+# serwowaniu strony. Wynik ich pracy (web/data/, web/tiles/) jest w repozytorium.
+scripts/build-data.mjs
+scripts/fetch-tile-images.mjs
+scripts/extract_layouts.py
+scripts/extract_layouts2.py
+scripts/extract_te_layouts.py
+scripts/official_layouts_raw.json
+server.mjs
+package.json.bak
+
+# --- dokumentacja robocza ------------------------------------------------------
+# Publiczne README zostaje; reszta opisów, instrukcji i zasad pracy jest lokalna.
+CLAUDE.md
+docs/
+
+# --- materiały źródłowe --------------------------------------------------------
+# vendor/  – klon repozytorium AsyncTI4, odtwarzalny przez `npm run vendor`
+# research/ – 369 MB analiz, w tym pliki po 60–75 MB (GitHub odrzuca >100 MB)
+vendor/
 research/
+
+# UWAGA: web/tiles/ (231 grafik kafli, 37 MB) CELOWO trafia do repozytorium –
+# strona serwuje je bezpośrednio, bez pobierania przy każdym wdrożeniu.
+# Odtworzenie po świeżym klonowaniu: npm run fetch:tiles
