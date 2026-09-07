@@ -1,4 +1,4 @@
-# GitHub: repozytorium i publiczna strona — stan i dalsze kroki
+# GitHub: repozytorium i publiczna strona
 
 Dokument opisuje konkretne repozytorium **`marcinsaj/ti4map`** i drogę do strony pod adresem:
 
@@ -52,7 +52,7 @@ git add -A
 git commit -m "Generator map do Twilight Imperium 4"
 ```
 
-Efekt: `Initial commit` → `Generator map…` → `Grafiki kafli…`. Wysłanie będzie czystym
+Efekt: `Initial commit` → `Generator map…` → `Grafiki kafli…`. Wysłanie było czystym
 fast-forward, bez scalania i bez konfliktów. Zaślepka README została zastąpiona właściwym
 plikiem projektu, licencja GPL-3.0 została nietknięta.
 
@@ -107,9 +107,11 @@ czyli 4% limitu GitHub Pages (1 GB).
 
 ### 2.4. Workflow publikacji
 
-Plik `.github/workflows/pages.yml` jest gotowy. Nie ma w nim kroku pobierania grafik — są
-w repozytorium. Buduje natomiast dane od nowa i puszcza smoke-test, żeby rozjechane dane
-zatrzymały wdrożenie, zamiast trafić na stronę.
+Plik `.github/workflows/pages.yml` publikuje dokładnie to, co leży w repozytorium: grafiki
+kafli i wygenerowane dane. Nic nie jest pobierane ani budowane z zewnętrznych źródeł, więc
+wdrożenie zawsze daje ten sam wynik, co wersja sprawdzona lokalnie (powód w rozdziale 3.1).
+Puszcza natomiast smoke-test, żeby rozjechane dane zatrzymały wdrożenie, zamiast trafić
+na stronę.
 
 ---
 
